@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Lithuania AI"
 publishDir = "docs"
 
-baseURL                          = "https://ruslanasa.github.io/lithuania.ai/"  # Your domain name. Must end with "/"
+baseURL                          = "https://theinference.tech/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
@@ -15,7 +15,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "youremail@email.com"   # E-mail address for contact section
+    #email                        = "youremail@email.com"   # E-mail address for contact section
     # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
 
     # Configure the home page
@@ -26,8 +26,8 @@ DefaultContentLanguage           = "en"                    # Default language fo
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
 
         localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
+        timeZone                 = "Europe/Vilnius"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeFormat               = "HH:mm:ss"                # https://momentjs.com/docs/#/displaying/format/
     [params.projects]
         useTwoColumns            = false                   # Use a layout with two columns instead of three
 
@@ -45,23 +45,27 @@ DefaultContentLanguage           = "en"                    # Default language fo
     #    url   = "https://twitter.com/"
     #    icon  = "twitter" # icon name without the 'fa-'
     #    icon_pack = "fab"
-    #[[params.social]]
-    #    url   = "https://facebook.com/"
-    #    icon  = "facebook-f" # icon name without the 'fa-'
-    #    icon_pack = "fab"
-    #[[params.social]]
-    #    url   = "https://linkedin.com/"
-    #    icon  = "linkedin-in" # icon name without the 'fa-'
-    #    icon_pack = "fab"
-    #[[params.social]]
-    #    url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
-    #    icon = "paper-plane" # icon name without the 'fa-'
-    #    icon_pack = "fas"
+    [[params.social]]
+       url   = "https://www.facebook.com/groups/artificialintelligence.lt/"
+       icon  = "facebook-f" # icon name without the 'fa-'
+       icon_pack = "fab"
+    [[params.social]]
+       url   = "https://www.linkedin.com/company/lithuania-ai/"
+       icon  = "linkedin-in" # icon name without the 'fa-'
+       icon_pack = "fab"
+    [[params.social]]
+       url = "mailto:ruslanas@lithuania.ai"  # For a direct email link, use "mailto:test@example.org".
+       icon = "paper-plane" # icon name without the 'fa-'
+       icon_pack = "fas"
     #[[params.social]]
     #    url   = "https://mastodon.social/"
     #    icon  = "mastodon" # icon name without the 'fa-'
     #    icon_pack = "fab"
     #    html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
+    [[params.social]]
+       url   = "https://ai-lithuania.slack.com/join/shared_invite/enQtNTYzMjM3MzAwMTc4LTQ2ZGY2YTE3OWY1NjBmZWE0ZTE2NzY5OGQ5OGFkYzNkNzZjYWE4ZTEwYmZkMTM5YjRlOWI4MTE1NGNlNzAwMDU?fbclid=IwAR30mLUmQxwtltorZgb9O8aVhlE4q-9gjbeJ7l_3SCsnjO6ll8QuEY7dd0g"
+       icon  = "slack-hash" # icon name without the 'fa-'
+       icon_pack = "fab"
 
 
 # If you don't want to use the default menu, you can define one by yourself
@@ -76,8 +80,8 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
 # We only use tag as a taxonomies
 # You can add more by yourself
-[taxonomies]
-  tag = "tags"
+# [taxonomies]
+#   tag = "tags"
 
 [languages]
     [languages.en]
@@ -85,7 +89,13 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Lithuania AI"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
+            description  = "Artificial Intelligence Association of Lithuania community site"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
