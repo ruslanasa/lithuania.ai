@@ -3,11 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ruslanasa.github.io/lithuania.ai/</loc>
+    <loc>https://theinference.tech/blog/</loc>
+    <lastmod>2020-01-24T22:25:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ruslanasa.github.io/lithuania.ai/tags/</loc>
+    <loc>https://theinference.tech/blog/meetup_2/</loc>
+    <lastmod>2019-12-05T22:38:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://theinference.tech/</loc>
+    <lastmod>2019-12-05T22:38:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://theinference.tech/blog/meetup_1/</loc>
+    <lastmod>2019-10-10T22:26:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://theinference.tech/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theinference.tech/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://theinference.tech/home/</loc>
   </url>
   
 </urlset>

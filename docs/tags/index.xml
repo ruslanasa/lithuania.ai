@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Introduction</title>
-    <link>https://ruslanasa.github.io/lithuania.ai/tags/</link>
-    <description>Recent content in Tags on Introduction</description>
+    <title>Tags on Lithuania AI</title>
+    <link>https://theinference.tech/tags/</link>
+    <description>Recent content in Tags on Lithuania AI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://ruslanasa.github.io/lithuania.ai/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://theinference.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
