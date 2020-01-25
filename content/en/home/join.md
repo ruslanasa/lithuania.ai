@@ -4,8 +4,8 @@ draft: true
 weight: 2
 ---
 
-We are a not-for-profit and rely on the efforts of volunteers and support of patrons.
-Association always looking for new people to volunteer. No previous experience in AI or development is necessary. What matters most is that you are passionate about creating or just want to know more about AI.
+We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons.
+Association is always looking for new people to volunteer. No previous experience in AI or development is necessary. What matters most is that you are passionate about creating or just want to know more about AI.
 
 <table style="width:100%">
   <tr>
