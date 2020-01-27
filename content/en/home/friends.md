@@ -3,7 +3,7 @@ title: "Friends"
 draft: true
 weight: 4
 ---
-There’s the list of some companies sponsored meetups or we partnered in other ways.
+List of companies that sponsored meetups or partnered with us in other ways.
 
 <div class="columns is-multiline">
   <div class="column is-one-fifth" style="margin: auto;">
