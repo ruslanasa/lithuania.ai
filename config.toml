@@ -54,7 +54,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
        icon  = "linkedin-in" # icon name without the 'fa-'
        icon_pack = "fab"
     [[params.social]]
-       url = "mailto:ruslanas@lithuania.ai"  # For a direct email link, use "mailto:test@example.org".
+       url = "mailto:info@lithuania.ai"  # For a direct email link, use "mailto:test@example.org".
        icon = "paper-plane" # icon name without the 'fa-'
        icon_pack = "fas"
     #[[params.social]]
