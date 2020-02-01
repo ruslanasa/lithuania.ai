@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Lithuania AI"
-publishDir = "docs"
+publishDir = "docs" # publish to docs for github pages compatibility
 baseURL = "https://lithuania.ai/"
 theme = "hugo-fresh"
 disableKinds = [
@@ -11,14 +11,14 @@ disableKinds = [
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe = true # Allow raw HTML rendering
 
 [params]
   openGraph = true
   section5 = true
 
   [params.navbarlogo]
-    image = "logos/fresh.svg"
+    image = "logos/LDIA_200x50.svg"
     link = "/"
 
   [params.font]
@@ -29,10 +29,12 @@ disableKinds = [
     ]
 
   [params.hero]
-    title = "Manage. Deploy."
-    subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
-    buttontext = "Get started"
+    title = "Join AI Association of Lithuania!"
+    subtitle = "Community of professionals and enthusiast dedicated to artificial intelligence development in Lithuania"
+    buttontext = "Join"
     buttonlink = "#"
+    secbuttontext = "Learn more"
+    secbuttonlink = "#"
     image = "illustrations/worker.svg"
     clientlogos = [
       "systek",
