@@ -136,7 +136,7 @@ disableKinds = [
 
   [params.footer]
     logo = "LDIA_200x50.svg"
-    socialmediatitle = "Contact Us"
+    socialmediatitle = "Follow Us"
     bulmalogo = false
 
     [params.footer.quicklinks]
@@ -150,7 +150,7 @@ disableKinds = [
         
         [[params.footer.quicklinks.column1.links]]
           text = "FAQ"
-          link = "/"
+          link = "/faq"
 
     #   [params.footer.quicklinks.column2]
     #     title = "Docs"
@@ -193,6 +193,10 @@ disableKinds = [
     [[params.footer.socialmedia]]
       link = "https://www.linkedin.com/company/lithuania-ai/"
       icon = "linkedin"
+
+    [[params.footer.socialmedia]]
+      link = "https://www.eventbrite.com/o/artificial-intelligence-association-of-lithuania-ldia-16793448984"
+      icon = "ticket"
 
     [[params.footer.socialmedia]]
       link = "mailto: info@lithuania.ai"
