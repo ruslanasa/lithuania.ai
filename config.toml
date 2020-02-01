@@ -1,101 +1,228 @@
 languageCode = "en-us"
 title = "Lithuania AI"
 publishDir = "docs"
-
-baseURL                          = "https://lithuania.ai/"  # Your domain name. Must end with "/"
-theme                            = "introduction"
-DefaultContentLanguage           = "en"                    # Default language for multilingual sites
-# disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                       # https://gohugo.io/templates/internal/#google-analytics
-
-[params]
-    themeStyle                   = "light"                 # Choose "light" or "dark"
-    favicon                      = "/img/fav.ico"          # Path to favicon file
-    showRSSButton                = false                   # Show rss button in navigation
-    fadeIn                       = true                    # Turn on/off the fade-in effect
-    fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
-    dateFormat                   = "Jan 2, 2006"
-    #email                        = "youremail@email.com"   # E-mail address for contact section
-    # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
-
-    # Configure the home page
-    [params.home]
-        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = true                    # Show latest blog post summary
-        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
-
-        localTime                = false                    # Show your current local time in contact section
-        timeZone                 = "Europe/Vilnius"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        timeFormat               = "HH:mm:ss"                # https://momentjs.com/docs/#/displaying/format/
-    [params.projects]
-        useTwoColumns            = false                   # Use a layout with two columns instead of three
-
-    # Share buttons on blog post pages
-    [params.share]
-        twitter                  = true
-        facebook                 = true
-        googlePlus               = true
-        pinterest                = true
-
-    # Social icons appear in introduction and contact section. Add as many more as you like.
-    # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
-    # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
-    #[[params.social]]
-    #    url   = "https://twitter.com/"
-    #    icon  = "twitter" # icon name without the 'fa-'
-    #    icon_pack = "fab"
-    [[params.social]]
-       url   = "https://www.facebook.com/groups/artificialintelligence.lt/"
-       icon  = "facebook-f" # icon name without the 'fa-'
-       icon_pack = "fab"
-    [[params.social]]
-       url   = "https://www.linkedin.com/company/lithuania-ai/"
-       icon  = "linkedin-in" # icon name without the 'fa-'
-       icon_pack = "fab"
-    [[params.social]]
-       url = "mailto:info@lithuania.ai"  # For a direct email link, use "mailto:test@example.org".
-       icon = "paper-plane" # icon name without the 'fa-'
-       icon_pack = "fas"
-    #[[params.social]]
-    #    url   = "https://mastodon.social/"
-    #    icon  = "mastodon" # icon name without the 'fa-'
-    #    icon_pack = "fab"
-    #    html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
-    [[params.social]]
-       url   = "https://ai-lithuania.slack.com/join/shared_invite/enQtNTYzMjM3MzAwMTc4LTQ2ZGY2YTE3OWY1NjBmZWE0ZTE2NzY5OGQ5OGFkYzNkNzZjYWE4ZTEwYmZkMTM5YjRlOWI4MTE1NGNlNzAwMDU?fbclid=IwAR30mLUmQxwtltorZgb9O8aVhlE4q-9gjbeJ7l_3SCsnjO6ll8QuEY7dd0g"
-       icon  = "slack-hash" # icon name without the 'fa-'
-       icon_pack = "fab"
-
-
-# If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
-
-# We only use tag as a taxonomies
-# You can add more by yourself
-# [taxonomies]
-#   tag = "tags"
-
-[languages]
-    [languages.en]
-        languageName     = "English"
-        languageCode     = "en-us"
-        contentDir       = "content/en"
-        weight           = 0
-        title            = "Lithuania AI"
-        [languages.en.params]
-            description  = "Artificial Intelligence Association of Lithuania community site"   # Max 160 characters show in search results
-            # footerText   = ""                      # Text to override default footer text (markdown allowed)
-
+baseURL = "https://lithuania.ai/"
+theme = "hugo-fresh"
+disableKinds = [
+  "taxonomy",
+  "taxonomyTerm"
+]
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params]
+  openGraph = true
+  section5 = true
+
+  [params.navbarlogo]
+    image = "logos/fresh.svg"
+    link = "/"
+
+  [params.font]
+    name = "Open Sans"
+    sizes = [
+      400.0,
+      600.0
+    ]
+
+  [params.hero]
+    title = "Manage. Deploy."
+    subtitle = "Lorem ipsum sit dolor amet is dummy text used by the typography industry"
+    buttontext = "Get started"
+    buttonlink = "#"
+    image = "illustrations/worker.svg"
+    clientlogos = [
+      "systek",
+      "tribe",
+      "kromo",
+      "infinite",
+      "gutwork"
+    ]
+
+  [params.section1]
+    title = "Great power comes"
+    subtitle = "with great responsibility"
+
+    [[params.section1.tiles]]
+      title = "App builder"
+      icon = "mouse-globe"
+      text = "This is some explanatory text that is on two rows"
+      url = "/"
+      buttonText = "Free trial"
+
+    [[params.section1.tiles]]
+      title = "Cloud integration"
+      icon = "laptop-cloud"
+      text = "This is some explanatory text that is on two rows"
+      url = "/"
+      buttonText = "Get started"
+
+    [[params.section1.tiles]]
+      title = "Add-ons & plugins"
+      icon = "plug-cloud"
+      text = "This is some explanatory text that is on two rows"
+      url = "/"
+      buttonText = "Get started"
+
+  [params.section2]
+    title = "You're here because you want the best"
+    subtitle = "And we know it"
+
+    [[params.section2.features]]
+      title = "Powerful and unified interface"
+      text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+      icon = "laptop-globe"
+
+    [[params.section2.features]]
+      title = "Cross-device synchronisation"
+      text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+      icon = "doc-sync"
+
+    [[params.section2.features]]
+      title = "Nomad system"
+      text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+      icon = "mobile-feed"
+
+  [params.section3]
+    title = "One platform"
+    subtitle = "To rule them all"
+    image = "illustrations/mockups/app-mockup.png"
+    buttonText = "Get started"
+    buttonLink = "#"
+
+  [params.section4]
+    title = "Our Clients love us!"
+    subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
+
+    [[params.section4.clients]]
+      name = "Irma Walters"
+      quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+      job = "Accountant"
+      img = 1.0
+
+    [[params.section4.clients]]
+      name = "John Bradley"
+      quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+      job = "Financial Analyst"
+      img = 2.0
+
+    [[params.section4.clients]]
+      name = "Gary Blackman"
+      quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
+      job = "HR Manager"
+      img = 3.0
+
+  [params.footer]
+    logo = "fresh-white-alt.svg"
+    socialmediatitle = "Follow Us"
+    bulmalogo = true
+
+    [params.footer.quicklinks]
+
+      [params.footer.quicklinks.column1]
+        title = "Product"
+
+        [[params.footer.quicklinks.column1.links]]
+          text = "Discover features"
+          link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+          text = "Why choose our product?"
+          link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+          text = "Compare features"
+          link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+          text = "Our roadmap"
+          link = "/"
+
+        [[params.footer.quicklinks.column1.links]]
+          text = "AGB"
+          link = "/agb"
+
+      [params.footer.quicklinks.column2]
+        title = "Docs"
+
+        [[params.footer.quicklinks.column2.links]]
+          text = "Get started"
+          link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+          text = "User guides"
+          link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+          text = "Admin guide"
+          link = "/"
+
+        [[params.footer.quicklinks.column2.links]]
+          text = "Developers"
+          link = "/"
+
+      [params.footer.quicklinks.column3]
+        title = "Blog"
+
+        [[params.footer.quicklinks.column3.links]]
+          text = "Latest news"
+          link = "/blog/first"
+
+        [[params.footer.quicklinks.column3.links]]
+          text = "Tech articles"
+          link = "/blog/second"
+
+    [[params.footer.socialmedia]]
+      link = "https://github.com/lucperkins/github-fresh"
+      icon = "github"
+
+    [[params.footer.socialmedia]]
+      link = "https://dribbble.com/#"
+      icon = "dribbble"
+
+    [[params.footer.socialmedia]]
+      link = "https://facebook.com/#"
+      icon = "facebook"
+
+    [[params.footer.socialmedia]]
+      link = "https://twitter.com/lucperkins"
+      icon = "twitter"
+
+    [[params.footer.socialmedia]]
+      link = "https://bitbucket.org/#"
+      icon = "bitbucket"
+
+  [[params.navbar]]
+    title = "Features"
+    url = "/"
+
+  [[params.navbar]]
+    title = "Pricing"
+    url = "/"
+
+  [[params.navbar]]
+    title = "Dropdown"
+
+    [[params.navbar.sublinks]]
+      title = "Dropdown item"
+      url = "/"
+
+    [[params.navbar.sublinks]]
+      title = "Dropdown item"
+      url = "/"
+
+    [[params.navbar.sublinks]]
+      title = "Dropdown item"
+      url = "/"
+
+  [[params.navbar]]
+    title = "Log in"
+    url = "/"
+
+  [[params.navbar]]
+    title = "Sign up"
+    url = "/"
+    button = true

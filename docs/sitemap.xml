@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lithuania.ai/blog/</loc>
+    <loc>https://lithuania.ai/en/blog/</loc>
     <lastmod>2020-01-24T22:25:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lithuania.ai/blog/meetup_2/</loc>
+    <loc>https://lithuania.ai/en/blog/meetup_2/</loc>
     <lastmod>2019-12-05T22:38:37+02:00</lastmod>
   </url>
   
@@ -18,20 +18,16 @@
   </url>
   
   <url>
-    <loc>https://lithuania.ai/blog/meetup_1/</loc>
+    <loc>https://lithuania.ai/en/blog/meetup_1/</loc>
     <lastmod>2019-10-10T22:26:13+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lithuania.ai/categories/</loc>
+    <loc>https://lithuania.ai/en/</loc>
   </url>
   
   <url>
-    <loc>https://lithuania.ai/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/home/</loc>
+    <loc>https://lithuania.ai/en/home/</loc>
   </url>
   
 </urlset>
