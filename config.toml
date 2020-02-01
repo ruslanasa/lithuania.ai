@@ -31,7 +31,7 @@ disableKinds = [
   [params.hero]
     title = "Join AI Association of Lithuania!"
     subtitle = "Community of professionals and enthusiast dedicated to artificial intelligence development in Lithuania"
-    buttontext = "Join"
+    buttontext = "Join us"
     buttonlink = "#"
     secbuttontext = "Learn more"
     secbuttonlink = "#"
@@ -53,10 +53,13 @@ disableKinds = [
     title = "Membership"
     url = "/"
 
-  # [[params.navbar]]
-  #   title = "Join"
-  #   url = "/"
-  #   button = true
+  [[params.navbar]]
+    title = "News"
+    url = "/news"
+
+  [[params.navbar]]
+    title = "Contacts"
+    url = "/"
 
   # [params.section1]
   #   title = "Great power comes"
@@ -133,33 +136,21 @@ disableKinds = [
 
   [params.footer]
     logo = "LDIA_200x50.svg"
-    socialmediatitle = "Follow Us"
+    socialmediatitle = "Contact Us"
     bulmalogo = false
 
-    # [params.footer.quicklinks]
+    [params.footer.quicklinks]
 
-    #   [params.footer.quicklinks.column1]
-    #     title = "Product"
+      [params.footer.quicklinks.column1]
+        title = "INFO"
 
-    #     [[params.footer.quicklinks.column1.links]]
-    #       text = "Discover features"
-    #       link = "/"
-
-    #     [[params.footer.quicklinks.column1.links]]
-    #       text = "Why choose our product?"
-    #       link = "/"
-
-    #     [[params.footer.quicklinks.column1.links]]
-    #       text = "Compare features"
-    #       link = "/"
-
-    #     [[params.footer.quicklinks.column1.links]]
-    #       text = "Our roadmap"
-    #       link = "/"
-
-    #     [[params.footer.quicklinks.column1.links]]
-    #       text = "AGB"
-    #       link = "/agb"
+        [[params.footer.quicklinks.column1.links]]
+          text = "Bylaws (in lithuanian)"
+          link = "files/ldia_istatai.pdf"
+        
+        [[params.footer.quicklinks.column1.links]]
+          text = "FAQ"
+          link = "/"
 
     #   [params.footer.quicklinks.column2]
     #     title = "Docs"
