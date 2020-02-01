@@ -35,14 +35,28 @@ disableKinds = [
     buttonlink = "#"
     secbuttontext = "Learn more"
     secbuttonlink = "#"
-    image = "illustrations/worker.svg"
-    clientlogos = [
-      "systek",
-      "tribe",
-      "kromo",
-      "infinite",
-      "gutwork"
+    image = "illustrations/Group_393x295.svg"
+    memberlogos = [
+      "oxipit",
+      "neurotechnology"
     ]
+
+  [[params.navbar]]
+    title = "Mission"
+    url = "/"
+
+  [[params.navbar]]
+    title = "Events"
+    url = "/"
+
+  [[params.navbar]]
+    title = "Membership"
+    url = "/"
+
+  # [[params.navbar]]
+  #   title = "Join"
+  #   url = "/"
+  #   button = true
 
   [params.section1]
     title = "Great power comes"
@@ -196,35 +210,3 @@ disableKinds = [
     [[params.footer.socialmedia]]
       link = "https://bitbucket.org/#"
       icon = "bitbucket"
-
-  [[params.navbar]]
-    title = "Features"
-    url = "/"
-
-  [[params.navbar]]
-    title = "Pricing"
-    url = "/"
-
-  [[params.navbar]]
-    title = "Dropdown"
-
-    [[params.navbar.sublinks]]
-      title = "Dropdown item"
-      url = "/"
-
-    [[params.navbar.sublinks]]
-      title = "Dropdown item"
-      url = "/"
-
-    [[params.navbar.sublinks]]
-      title = "Dropdown item"
-      url = "/"
-
-  [[params.navbar]]
-    title = "Log in"
-    url = "/"
-
-  [[params.navbar]]
-    title = "Sign up"
-    url = "/"
-    button = true

@@ -9,7 +9,7 @@
     <div class="navbar-brand">
       {{- if $navbarLogo}}
       <a class="navbar-item" href="{{ $navbarLogo.link }}">
-        <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="144" height="50">
+        <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="200" height="50" style="max-height: 50px !important; height: 50px;">
       </a>
       {{- end}}
 
