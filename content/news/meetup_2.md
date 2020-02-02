@@ -1,6 +1,7 @@
 ---
 title: "Artificial Intelligence Meetup #2"
 date: 2019-12-05T22:38:37+02:00
+include_footer: true
 draft: true
 ---
 "Artificial Intelligence Association of Lithuania" presents second community meetup!

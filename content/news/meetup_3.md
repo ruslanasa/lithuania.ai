@@ -1,6 +1,7 @@
 ---
 title: "Artificial Intelligence Meetup #3"
 date: 2020-01-28T23:38:37+02:00
+include_footer: true
 draft: true
 ---
 For everybody who is interested "Artificial Intelligence Association of Lithuania" presents recording of our third meetup!
