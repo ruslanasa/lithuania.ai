@@ -14,6 +14,7 @@ disableKinds = [
       unsafe = true # Allow raw HTML rendering
 
 [params]
+  custom_css = ["css/custom.css"]
   openGraph = true
   section5 = true
 
@@ -57,13 +58,13 @@ disableKinds = [
     title = "News"
     url = "/news"
 
-  [[params.navbar]]
-    title = "Friends"
-    url = "/#section4"
+  # [[params.navbar]]
+  #   title = "Friends"
+  #   url = "/#section4"
 
-  [[params.navbar]]
-    title = "Contacts"
-    url = "/"
+  # [[params.navbar]]
+  #   title = "Contacts"
+  #   url = "/"
 
   [params.section1]
     title = "Our Mission"
