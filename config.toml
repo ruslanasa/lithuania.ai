@@ -32,7 +32,7 @@ disableKinds = [
     title = "Join AI Association of Lithuania!"
     subtitle = "Community of professionals and enthusiast dedicated to artificial intelligence development in Lithuania"
     buttontext = "Join us"
-    buttonlink = "#"
+    buttonlink = "/#section3"
     secbuttontext = "Learn more"
     secbuttonlink = "#"
     image = "illustrations/Group_393x295.svg"
@@ -43,27 +43,42 @@ disableKinds = [
 
   [[params.navbar]]
     title = "Mission"
-    url = "/"
+    url = "/#section1"
 
   [[params.navbar]]
-    title = "Events"
-    url = "/"
+    title = "Vision"
+    url = "/#section2"
 
   [[params.navbar]]
     title = "Membership"
-    url = "/"
+    url = "/#section3"
 
   [[params.navbar]]
     title = "News"
     url = "/news"
 
   [[params.navbar]]
+    title = "Friends"
+    url = "/#section4"
+
+  [[params.navbar]]
     title = "Contacts"
     url = "/"
 
-  # [params.section1]
-  #   title = "Great power comes"
-  #   subtitle = "with great responsibility"
+  [params.section1]
+    title = "Our Mission"
+    subtitle = "what are we doing"
+    text = "We gather community of AI of Lithuania in order to debate about AI technology, find best interpretation of legal AI issues as well as education of public on AI topics. We realizing the potential of emerging sector of AI and welcome participates from all sectors to create better enviroment to do fundamental research, explore and encourage the AI startups as well as AI adoption in business. Most important we pursue for sustainable and effective AI integration to all sectors of ecosystem."
+
+  [params.section2]
+    title = "Our Vision"
+    subtitle = "what are we trying to acheave"
+    text = "We strive to connect and lead AI community of Lithuania to become strong and competitive within Europe and global context. We pursue this by campaign partnerships between the academic and private sectors, as well as government and public sectors. We formulating and expressing guidelines for national AI strategy, including the ethics, legal questions of AI. This joint-venture, putting together the best from all sectors, can contribute to the fundamental research in AI and to the innovation ecosystem, being very beneficial to the whole country."
+  
+  [params.section3]
+    title = "Membership"
+    subtitle = "becomming member of AI community"
+    text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. No previous experience in AI or development is necessary. What matters most is that you are passionate about creating or just want to know more about AI."
 
   #   [[params.section1.tiles]]
   #     title = "App builder"

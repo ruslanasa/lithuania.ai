@@ -1,0 +1,71 @@
+{{- $section3 := .Site.Params.section3 }}
+{{- $title    := index $section3 "title" }}
+{{- $subtitle := index $section3 "subtitle" }}
+{{- $text    := index $section3 "text" }}
+<section id="section3" class="section section-feature-grey is-medium">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns">
+        <div class="column">
+          <div class="has-text-justified revealOnScroll delay-1" data-animation="fadeInLeft">
+            <p>{{ $text }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>What is the membership fee?</h4>
+            </div>
+            &nbsp;
+            <div class="card-text has-text-left">
+              <ol>
+                <li>Individual membership is 100 EUR per year.</li>
+                <li>Company membership is 1000 EUR per year.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>How do I become a member?</h4>
+            </div>
+            &nbsp;
+            <div class="card-text has-text-left">
+              <ol>
+                <li>Get acquainted with the <a href="/files/ldia_istatai.pdf" target="_blank">bylaws</a>.</li>
+                <li>Fill in the application form.</li>
+                <li>Wait for a community member’s approval, which comes by email.</li>
+                <li>Transfer membership fee to a bank account.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>How to pay for membership?</h4>
+            </div>
+            &nbsp;
+            <div class="card-text has-text-left">
+              <ol>
+                <li><b>Beneficiary:</b> Lietuvos dirbtinio intelekto asociacija</li>
+                <li><b>Beneficiary’s account:</b> LT067300010160163729</li>
+                <li><b>Type of information:</b> LDIA membership</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
