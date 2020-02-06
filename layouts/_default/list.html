@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+  <section class="section is-medium">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-centered-tablet-portrait">
+          <h1 class="title section-title">{{ .Title }}</h1>
+          <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+          <div class="divider"></div>
+        </div>
+
+      </div>
+      
+      {{ .Content }}
+
+      <!-- discuss if latest post needs to be included NOTE styling will need to applied! -->
+      <!-- {{ range first 1 .Pages.ByPublishDate.Reverse }}
+        <div class="summary">{{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}{{ end }}
+            <h3 class="title is-3 strong-post-title">
+                <a href="{{ .Permalink }}">
+                    {{ .Title }}
+                </a>
+            </h3>
+            <div class="markdown">
+                {{ .Content }}
+                {{ if .Truncated }}
+                <a href="{{ .Permalink }}">{{ i18n "index_blog_readMore" . }}</a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }} -->
+
+      <ul>
+        <!-- Ranges through content/posts/*.md -->
+        {{ range .Pages.ByPublishDate.Reverse }}
+          {{ if .Date }}
+          <li>
+              <a href="{{ .Permalink }}">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }} | {{ .Title }}</a>
+          </li>
+          {{ else }}
+          <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+
+{{ if .Site.Params.footer }}
+{{ partial "footer.html" . }}
+{{ end }}
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+{{ if .Site.Params.sidebar }}
+{{ partial "sidebar.html" . }}
+{{ end }}
+    
+{{ end }}

@@ -1,0 +1,55 @@
+{{- $section4 := .Site.Params.section4 }}
+{{- $title    := index $section4 "title" }}
+{{- $subtitle := index $section4 "subtitle" }}
+{{- $text    := index $section4 "text" }}
+<section id="friends" class="section is-medium">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-10">
+            <p class="content">{{ $text }}</p>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-2">
+            <a href="">
+              <img class="friend-logo" src="/images/logos/members/Exacaster_123x70@4x.png">
+            </a>
+          </div>
+          <div class="column is-2">
+            <a href="">
+              <img class="friend-logo" src="/images/logos/members/NeuroTechnology_123x70@4x.png">
+            </a>
+          </div>
+          <div class="column is-2">
+            <a href="">
+              <img class="friend-logo" src="/images/logos/members/Oxipit_123x70@4x.png">
+            </a>
+          </div>
+          <div class="column is-2">
+            <a href="">
+              <img class="friend-logo" src="/images/logos/members/Pixelmator_123x70@4x.png">
+            </a>
+          </div>
+          <div class="column is-2">
+            <a href="">
+              <img class="friend-logo" src="/images/logos/members/Satalia_123x70@4x.png">
+            </a>
+          </div>
+          <div class="column is-2">
+            <a href="">
+              <img class="friend-logo" src="/images/logos/members/Unity_123x70@4x.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

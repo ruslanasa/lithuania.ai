@@ -1,0 +1,44 @@
+{{- $section2 := .Site.Params.section2 }}
+{{- $title    := index $section2 "title" }}
+{{- $subtitle := index $section2 "subtitle" }}
+{{- $text    := index $section2 "text" }}
+<section id="events" class="section is-medium">
+  <div class="container">
+    <div class="has-text-left">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <div class="divider is-left"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="columns has-text-left">
+          <div class="column is-6">
+            <p class="content has-padding-2em-bottom has-padding-4em-right">
+              By providing events and networking opportunities we creating the ability for you to improve the AI use. You can track our future events on a <a href="https://www.facebook.com/groups/artificialintelligence.lt/" target="_blank">Facebook AI community group</a>.  Now take a look at the videos of our past events!
+            </p>
+            <a class="button cta rounded secondary-btn raised" href="/news">Events</a>
+          </div>
+          <div class="column is-6">
+            <div class="columns is-centered">
+              <div class="column">
+                <div class="image is-186x186">
+                  <img class="is-rounded" src="/images/illustrations/event1.jpg">
+                </div>
+              </div>
+              <div class="column">
+                <div class="image is-186x186">
+                  <img class="is-rounded" src="/images/illustrations/event2.jpg">
+                </div>
+              </div>
+              <div class="column">
+                <div class="image is-186x186">
+                  <img class="is-rounded" src="/images/illustrations/event3.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
