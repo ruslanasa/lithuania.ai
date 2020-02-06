@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Lithuania AI</title>
-    <link>https://lithuania.ai/news/</link>
+    <link>https://theinference.tech/news/</link>
     <description>Recent content in News on Lithuania AI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jan 2020 22:25:14 +0200</lastBuildDate>
     
-	<atom:link href="https://lithuania.ai/news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://theinference.tech/news/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Artificial Intelligence Meetup #3</title>
-      <link>https://lithuania.ai/news/meetup_3/</link>
+      <link>https://theinference.tech/news/meetup_3/</link>
       <pubDate>Tue, 28 Jan 2020 23:38:37 +0200</pubDate>
       
-      <guid>https://lithuania.ai/news/meetup_3/</guid>
+      <guid>https://theinference.tech/news/meetup_3/</guid>
       <description>For everybody who is interested &amp;ldquo;Artificial Intelligence Association of Lithuania&amp;rdquo; presents recording of our third meetup!
 Agenda  19:00 – Intro – Aurelija Šerniūtė and Deividas Matačiūnas (co-organizers of AI meetup) 19:10 – &amp;ldquo;Impressions from the largest AI conference of 2019 - NeurIPS&amp;rdquo; - Mantas Puida (Machine Learning @ Unity Labs), Renaldas Zioma (Shepherd at Unity), Jonas Kubilius (Co-Founder @ Three Thirds) 19:40 – Break 20:10 – How to build and deploy artificial intelligence systems in healthcare - Darius Barušauskas (Co-Founder&amp;amp;Data Scientist @ Oxipit)  Meetup video</description>
     </item>
     
     <item>
       <title>Artificial Intelligence Meetup #2</title>
-      <link>https://lithuania.ai/news/meetup_2/</link>
+      <link>https://theinference.tech/news/meetup_2/</link>
       <pubDate>Thu, 05 Dec 2019 22:38:37 +0200</pubDate>
       
-      <guid>https://lithuania.ai/news/meetup_2/</guid>
+      <guid>https://theinference.tech/news/meetup_2/</guid>
       <description>&amp;ldquo;Artificial Intelligence Association of Lithuania&amp;rdquo; presents second community meetup!
 Agenda  Intro - by Aurelija Šerniūtė and Deividas Matačiūnas (co-organizers of AI meetup) &amp;ldquo;ML-based Image Editing Tools: From R&amp;amp;D to Production&amp;rdquo; - Simonas Bastys (Lead Developer @ Pixelmator Team) Break &amp;ldquo;Engineering Synthetic Proteins Using Generative Adversarial Networks&amp;rdquo; - Donatas Repečka (Deep learning Scientist &amp;amp; Co-Founder @ Biomatter Designs)  Meetup video</description>
     </item>
     
     <item>
       <title>Artificial Intelligence Meetup #1</title>
-      <link>https://lithuania.ai/news/meetup_1/</link>
+      <link>https://theinference.tech/news/meetup_1/</link>
       <pubDate>Thu, 10 Oct 2019 22:26:13 +0200</pubDate>
       
-      <guid>https://lithuania.ai/news/meetup_1/</guid>
+      <guid>https://theinference.tech/news/meetup_1/</guid>
       <description>Artificial Intelligence Group has grown up into something much bigger. From now on all the previous AI efforts will be combined under one new flag of &amp;ldquo;Artificial Intelligence Association of Lithuania&amp;rdquo;. Join our first official meetup to learn more about the organisation and how to become a part of it.
 Agenda  Intro - Audrius Zujus (President @ Artificial Intelligence Association of Lithuania) &amp;ldquo;Deploy your neural net: engineering platform agnostic inference.</description>
     </item>

@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Lithuania AI"
 publishDir = "docs" # publish to docs for github pages compatibility
-baseURL = "https://lithuania.ai/"
+baseURL = "https://theinference.tech/"
 theme = "hugo-fresh"
 disableKinds = [
   "taxonomy",
@@ -14,9 +14,10 @@ disableKinds = [
       unsafe = true # Allow raw HTML rendering
 
 [params]
+  description = "Artificial Intelligence Association of Lithuania community site"
   custom_css = ["css/custom.css"]
   openGraph = true
-  section5 = true
+  #section5 = true
 
   [params.navbarlogo]
     image = "logos/LDIA_200x50.svg"
@@ -31,55 +32,55 @@ disableKinds = [
 
   [params.hero]
     title = "Join AI Association of Lithuania!"
-    subtitle = "Community of professionals and enthusiast dedicated to artificial intelligence development in Lithuania"
+    subtitle = "Community of professionals and enthusiast dedicated to artificial intelligence development in Lithuania."
     buttontext = "Join us"
-    buttonlink = "/#section3"
+    buttonlink = "/#membership"
     secbuttontext = "Learn more"
-    secbuttonlink = "#"
+    secbuttonlink = "/#mission"
     image = "illustrations/Group_393x295.svg"
     memberlogos = [
-      "oxipit",
-      "neurotechnology"
+      "Exacaster_123x70@4x",
+      "NeuroTechnology_123x70@4x",
+      "Oxipit_123x70@4x",
+      "Pixelmator_123x70@4x",
+      "Satalia_123x70@4x",
+      "Unity_123x70@4x"
     ]
 
   [[params.navbar]]
     title = "Mission"
-    url = "/#section1"
+    url = "/#mission"
 
   [[params.navbar]]
-    title = "Vision"
-    url = "/#section2"
+    title = "Events"
+    url = "/#events"
 
   [[params.navbar]]
     title = "Membership"
-    url = "/#section3"
+    url = "/#membership"
 
   [[params.navbar]]
-    title = "News"
-    url = "/news"
-
-  # [[params.navbar]]
-  #   title = "Friends"
-  #   url = "/#section4"
+    title = "Friends"
+    url = "/#friends"
 
   # [[params.navbar]]
   #   title = "Contacts"
   #   url = "/"
 
-  [params.section1]
-    title = "Our Mission"
-    subtitle = "what are we doing"
-    text = "We gather community of AI of Lithuania in order to debate about AI technology, find best interpretation of legal AI issues as well as education of public on AI topics. We realizing the potential of emerging sector of AI and welcome participates from all sectors to create better enviroment to do fundamental research, explore and encourage the AI startups as well as AI adoption in business. Most important we pursue for sustainable and effective AI integration to all sectors of ecosystem."
-
   [params.section2]
-    title = "Our Vision"
-    subtitle = "what are we trying to acheave"
-    text = "We strive to connect and lead AI community of Lithuania to become strong and competitive within Europe and global context. We pursue this by campaign partnerships between the academic and private sectors, as well as government and public sectors. We formulating and expressing guidelines for national AI strategy, including the ethics, legal questions of AI. This joint-venture, putting together the best from all sectors, can contribute to the fundamental research in AI and to the innovation ecosystem, being very beneficial to the whole country."
-  
+    title = "Events"
+    subtitle = "events"
+    text = ""
+
   [params.section3]
     title = "Membership"
-    subtitle = "becomming member of AI community"
+    subtitle = "Becoming member of AI community"
     text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. No previous experience in AI or development is necessary. What matters most is that you are passionate about creating or just want to know more about AI."
+
+  [params.section4]
+    title = "Friends and Partners"
+    subtitle = "The companies that sponsored meetups or partnered in other ways"
+    text = ""
 
   #   [[params.section1.tiles]]
   #     title = "App builder"
@@ -151,25 +152,33 @@ disableKinds = [
   #     img = 3.0
 
   [params.footer]
-    logo = "LDIA_200x50.svg"
+    logo = "LDIA_200x50_white.svg"
     socialmediatitle = "Follow Us"
     bulmalogo = false
 
     [params.footer.quicklinks]
 
       [params.footer.quicklinks.column1]
-        title = "INFO"
+        title = "Info"
 
         [[params.footer.quicklinks.column1.links]]
           text = "Bylaws (in lithuanian)"
           link = "files/ldia_istatai.pdf"
-        
-        [[params.footer.quicklinks.column1.links]]
-          text = "FAQ"
-          link = "/faq"
 
-    #   [params.footer.quicklinks.column2]
-    #     title = "Docs"
+        [[params.footer.quicklinks.column1.links]]
+          text = "Member application form"
+          link = "https://docs.google.com/forms/d/e/1FAIpQLSddLuSeS5BUFgY7RSHP1_urgg0rSALZMvL_pZicbxt-Xe4u7w/viewform"
+
+        # [[params.footer.quicklinks.column1.links]]
+        #   text = "FAQ"
+        #   link = "/faq"
+
+      [params.footer.quicklinks.column2]
+        title = "Contacts"
+        
+        [[params.footer.quicklinks.column2.links]]
+          text = "Email: info@lithuania.ai"
+          link = "mailto: info@lithuania.ai"
 
     #     [[params.footer.quicklinks.column2.links]]
     #       text = "Get started"
@@ -213,8 +222,4 @@ disableKinds = [
     [[params.footer.socialmedia]]
       link = "https://www.eventbrite.com/o/artificial-intelligence-association-of-lithuania-ldia-16793448984"
       icon = "ticket"
-
-    [[params.footer.socialmedia]]
-      link = "mailto: info@lithuania.ai"
-      icon = "envelope"
 

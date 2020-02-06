@@ -2,7 +2,7 @@
 {{- $title    := index $section3 "title" }}
 {{- $subtitle := index $section3 "subtitle" }}
 {{- $text    := index $section3 "text" }}
-<section id="section3" class="section section-feature-grey is-medium">
+<section id="membership" class="section section-feature-grey is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 class="title is-2">{{ $title }}</h2>
@@ -11,59 +11,61 @@
     </div>
 
     <div class="content-wrapper">
-      <div class="columns">
-        <div class="column">
-          <div class="has-text-justified revealOnScroll delay-1" data-animation="fadeInLeft">
-            <p>{{ $text }}</p>
+      <div class="content">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-10">
+            <p class="content">{{ $text }}</p>
           </div>
         </div>
       </div>
-      <div class="columns">
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>What is the membership fee?</h4>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
+          <article class="tile is-child box has-no-padding">
+            <div class="card-header">
+              <div class="card-header-title has-padding-2em has-text-centered has-dead-purple-bgcolor">
+                <p class="title is-4">What is the membership fee?</p>
+              </div>
             </div>
-            &nbsp;
-            <div class="card-text has-text-left">
-              <ol>
+            <div class="content has-padding-2em">
+              <ul class="has-padding-1em-bottom">
                 <li>Individual membership is 100 EUR per year.</li>
                 <li>Company membership is 1000 EUR per year.</li>
-              </ol>
+              </ul>
             </div>
-          </div>
+          </article>
         </div>
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>How do I become a member?</h4>
+        <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
+          <article class="tile is-child box has-no-padding">
+            <div class="card-header">
+              <div class="card-header-title has-padding-2em has-text-centered has-dead-purple-bgcolor">
+                <p class="title is-4">How do I become a member?</p>
+              </div>
             </div>
-            &nbsp;
-            <div class="card-text has-text-left">
-              <ol>
+            <div class="content has-padding-2em">
+              <ul class="has-padding-1em-bottom">
                 <li>Get acquainted with the <a href="/files/ldia_istatai.pdf" target="_blank">bylaws</a>.</li>
-                <li>Fill in the application form.</li>
+                <li>Fill in the <a href="https://docs.google.com/forms/d/e/1FAIpQLSddLuSeS5BUFgY7RSHP1_urgg0rSALZMvL_pZicbxt-Xe4u7w/viewform" target="_blank">application form</a>.</li>
                 <li>Wait for a community member’s approval, which comes by email.</li>
                 <li>Transfer membership fee to a bank account.</li>
-              </ol>
+              </ul>
             </div>
-          </div>
+          </article>
         </div>
-
-        <div class="column is-one-third">
-          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
-            <div class="card-title">
-              <h4>How to pay for membership?</h4>
+        <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
+          <article class="tile is-child box has-no-padding">
+            <div class="card-header">
+              <div class="card-header-title has-padding-2em has-text-centered has-dead-purple-bgcolor">
+                <p class="title is-4">How to pay for membership?</p>
+              </div>
             </div>
-            &nbsp;
-            <div class="card-text has-text-left">
-              <ol>
+            <div class="content has-padding-2em">
+              <ul class="has-padding-1em-bottom">
                 <li><b>Beneficiary:</b> Lietuvos dirbtinio intelekto asociacija</li>
                 <li><b>Beneficiary’s account:</b> LT067300010160163729</li>
                 <li><b>Type of information:</b> LDIA membership</li>
-              </ol>
+              </ul>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </div>

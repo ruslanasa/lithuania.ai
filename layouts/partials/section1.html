@@ -1,22 +1,35 @@
-{{- $section1 := .Site.Params.section1 }}
-{{- $title    := index $section1 "title" }}
-{{- $subtitle := index $section1 "subtitle" }}
-{{- $text    := index $section1 "text" }}
-<section id="section1" class="section section-feature-grey is-medium">
+<section id="mission" class="section section-feature-grey is-medium">
   <div class="container">
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2">{{ $title }}</h2>
-      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
-      <div class="divider is-centered"></div>
-    </div>
-
     <div class="content-wrapper">
-      <div class="columns">
-        <div class="column">
-          <div class="has-text-centered has-text-justified revealOnScroll delay-1" data-animation="fadeInLeft">
-            <p>{{ $text }}</p>
+      <div class="columns is-centered">
+        <div class="column is-10">
+        <div class="tile is-ancestor">
+          <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
+            <article class="tile is-child box">
+              <div class="content has-padding-2em">
+                <div class="title-wrapper has-text-centered has-padding-2em-bottom">
+                  <h2 class="title is-2">Mission</h2>
+                  <h3 class="subtitle is-5 is-muted">What are we doing?</h3>
+                  <div class="divider is-centered"></div>
+                </div>
+                <p class="content has-text-centered">We gather community of AI of Lithuania in order to debate about AI technology, find best interpretation of legal AI issues as well as education of public on AI topics. We realizing the potential of emerging sector of AI and welcome participates from all sectors to create better enviroment to do fundamental research, explore and encourage the AI startups as well as AI adoption in business. Most important we pursue for sustainable and effective AI integration to all sectors of ecosystem.</p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
+            <article class="tile is-child box">
+              <div class="content has-padding-2em">
+                <div class="title-wrapper has-text-centered has-padding-2em-bottom">
+                  <h2 class="title is-2">Vision</h2>
+                  <h3 class="subtitle is-5 is-muted">What are we trying to achieve?</h3>
+                  <div class="divider is-centered"></div>
+                </div>
+                <p class="content content has-text-centered">We strive to connect and lead AI community of Lithuania to become strong and competitive within Europe and global context. We pursue this by campaign partnerships between the academic and private sectors, as well as government and public sectors. We formulating and expressing guidelines for national AI strategy, including the ethics, legal questions of AI. This joint-venture, putting together the best from all sectors, can contribute to the fundamental research in AI and to the innovation ecosystem, being very beneficial to the whole country.</p>
+              </div>
+            </article>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>

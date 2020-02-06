@@ -14,19 +14,19 @@
           {{ $title }}
         </h1>
         {{ with $subtitle }}
-        <h2 class="subtitle is-5 is-muted">
+        <h2 class="subtitle is-5 is-muted has-padding-2em-bottom">
           {{ . }}
         </h2>
         {{ end }}
         <div class="columns is-vcentered">
           <div class="column is-4">
-            <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
+            <a class="button cta rounded secondary-btn raised" href="{{ $buttonLink }}">
               {{ $buttonText }}
             </a>
           </div>
           <div class="column is-1">or</div>
           <div class="column is-5">
-            <a class="button cta rounded is-outlined" href="{{ $secButtonLink }}">
+            <a class="button cta rounded raised" href="{{ $secButtonLink }}">
               {{ $secButtonText }}
             </a>
           </div>

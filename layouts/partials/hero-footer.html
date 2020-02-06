@@ -2,17 +2,12 @@
 {{- $memberLogos := index $hero "memberlogos" }}
 <div class="hero-foot mb-20">
   <div class="container">
-    <div class="columns">
-      <div class="column">
-        <h2 class="title is-5 has-text-grey-light has-text-centered">Supported by members companies:</h2>
-      </div>
-    </div>
     <div class="tabs is-centered">
       <ul>
         {{- range $memberLogos }}
         <li>
           <a>
-            <img class="partner-logo" src="{{ printf "/images/logos/members/%s.svg" . | relURL }}">
+            <img class="partner-logo" src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
           </a>
         </li>
         {{- end }}
