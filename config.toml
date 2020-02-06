@@ -31,8 +31,8 @@ disableKinds = [
     ]
 
   [params.hero]
-    title = "Join AI Association of Lithuania!"
-    subtitle = "Community of professionals and enthusiast dedicated to artificial intelligence development in Lithuania."
+    title = "Join the AI Association of Lithuania!"
+    subtitle = "The community of professionals and enthusiasts dedicated to artificial intelligence development in Lithuania."
     buttontext = "Join us"
     buttonlink = "/#membership"
     secbuttontext = "Learn more"
@@ -74,7 +74,7 @@ disableKinds = [
 
   [params.section3]
     title = "Membership"
-    subtitle = "Becoming member of AI community"
+    subtitle = "Becoming a member of the AI community"
     text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. No previous experience in AI or development is necessary. What matters most is that you are passionate about creating or just want to know more about AI."
 
   [params.section4]
