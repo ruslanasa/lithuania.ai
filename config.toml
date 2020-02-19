@@ -44,7 +44,8 @@ disableKinds = [
       "Oxipit_123x70@4x",
       "Pixelmator_123x70@4x",
       "Satalia_123x70@4x",
-      "Unity_123x70@4x"
+      "Unity_123x70@4x",
+      "3_3"
     ]
 
   [[params.navbar]]
