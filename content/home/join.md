@@ -9,10 +9,10 @@ Association is always looking for new people to volunteer. No previous experienc
 
 <table style="width:100%;">
   <tr>
-      <th>How Much?</th>
+      <th>How much does it cost?</th>
       <th>How do I become a member?</th>
-      <th>Where to transfer membership fee?</th>
-      <th>How long is a membership valid?</th>
+      <th>How to pay membership fee?</th>
+      <th>For how long is the membership valid?</th>
   </tr>
   <tr>
       <td style="text-align: left;">
@@ -31,13 +31,14 @@ Association is always looking for new people to volunteer. No previous experienc
       </td>
       <td style="text-align: left;">
         <ol>
+          <li>Make a bank wire transfer</li>
           <li>Beneficiary: <b>Lietuvos dirbtinio intelekto asociacija</b></li>
           <li>Beneficiary’s account: <b>LT067300010160163729</b></li>
           <li>Type of information: <b>LDIA membership</b></li>
         </ol>
       </td>
       <td style="text-align: left;">
-        Membership validation is 1 year for all no matter what you are business or private persion.
+        Membership is valid for 1 year for business and private person.
       </td>
   </tr>
 </table>
