@@ -57,6 +57,10 @@ disableKinds = [
     url = "/#events"
 
   [[params.navbar]]
+    title = "Publications"
+    url = "/news/publications/"
+
+  [[params.navbar]]
     title = "Membership"
     url = "/#membership"
 
