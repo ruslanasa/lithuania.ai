@@ -1,6 +1,6 @@
 ---
 title: "Join"
-draft: true
+draft: false
 weight: 2
 ---
 

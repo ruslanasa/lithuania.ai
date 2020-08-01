@@ -1,6 +1,6 @@
 ---
 title: "Friends"
-draft: true
+draft: false
 weight: 4
 ---
 List of companies that sponsored meetups or partnered with us in other ways.
