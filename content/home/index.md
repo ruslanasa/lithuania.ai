@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the AI Association of Lithuania!"
-draft: true
+draft: false
 weight: 0
 ---
-Association dedicated to development of Artificial Intelligence in Lithuania
+Association is dedicated to promote development of Artificial Intelligence in Lithuania

@@ -6,7 +6,7 @@
     <description>Recent content on Lithuania AI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2020 18:18:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 23:38:37 +0200</lastBuildDate>
     
 	<atom:link href="https://lithuania.ai/index.xml" rel="self" type="application/rss+xml" />
     
@@ -51,12 +51,21 @@ Agenda  Intro - Audrius Zujus (President @ Artificial Intelligence Association o
     </item>
     
     <item>
+      <title>Publications</title>
+      <link>https://lithuania.ai/news/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lithuania.ai/news/publications/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
       <title>Welcome to the AI Association of Lithuania!</title>
       <link>https://lithuania.ai/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lithuania.ai/home/</guid>
-      <description>Association dedicated to development of Artificial Intelligence in Lithuania</description>
+      <description>Association is dedicated to promote development of Artificial Intelligence in Lithuania</description>
     </item>
     
   </channel>

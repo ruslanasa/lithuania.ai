@@ -1,0 +1,37 @@
+{{- $section5 := .Site.Params.section5 }}
+{{- $title    := index $section5 "title" }}
+{{- $subtitle := index $section5 "subtitle" }}
+{{- $text    := index $section5 "text" }}
+<section id="friends" class="section is-medium">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-10">
+            <p class="content">{{ $text }}</p>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-2">
+            <a href="https://claire-ai.org/">
+                <img class="friend-logo" src="/images/logos/members/Clair.png">
+            </a>
+          </div>
+          <div class="column is-2">
+            <a href="https://www.aric-hamburg.de/">
+              <img class="friend-logo" src="/images/logos/members/Aric.png">
+            </a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

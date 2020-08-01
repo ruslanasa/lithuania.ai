@@ -57,6 +57,10 @@ disableKinds = [
     url = "/#events"
 
   [[params.navbar]]
+    title = "Publications"
+    url = "/news/publications/"
+
+  [[params.navbar]]
     title = "Membership"
     url = "/#membership"
 
@@ -79,8 +83,13 @@ disableKinds = [
     text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. No previous experience in AI or development is necessary. What matters most is that you are passionate about creating or just want to know more about AI."
 
   [params.section4]
+    title = "Members of association"
+    subtitle = "The companies that are members of Aritificial Intelligence Association of Lithuania"
+    text = ""
+
+  [params.section5]
     title = "Friends and Partners"
-    subtitle = "The companies that sponsored meetups or partnered in other ways"
+    subtitle = "The organizations and associations which Aritificial Intelligence Association of Lithuania support"
     text = ""
 
   #   [[params.section1.tiles]]
