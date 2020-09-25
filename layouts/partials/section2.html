@@ -1,11 +1,16 @@
 {{- $section2 := .Site.Params.section2 }}
 {{- $title    := index $section2 "title" }}
+{{- $titlelt    := index $section2 "titlelt" }}
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $text    := index $section2 "text" }}
 <section id="events" class="section is-medium">
   <div class="container">
     <div class="has-text-left">
-      <h2 class="title is-2">{{ $title }}</h2>
+          {{if eq $.Site.Language.Lang "en" }}
+            <h2 class="title is-2">{{ $title }}</h2>
+          {{- else }}
+            <h2 class="title is-2">{{ $titlelt }}</h2>
+          {{- end }}
       <div class="divider is-left"></div>
     </div>
 
@@ -13,10 +18,25 @@
       <div class="content">
         <div class="columns has-text-left">
           <div class="column is-6">
+          {{if eq $.Site.Language.Lang "en" }}
             <p class="content has-padding-2em-bottom has-padding-4em-right">
               By providing events and networking opportunities we creating the ability for you to improve AI use. You can track our future events on a <a href="https://www.facebook.com/groups/artificialintelligence.lt/" target="_blank">Facebook AI community group</a>.  Now take a look at the videos of our past events!
             </p>
+          {{- else }}
+            <p class="content has-padding-2em-bottom has-padding-4em-right">
+               Rengdami renginius ir kontaktų vakarus, skleidžiame kas vyksta Lietuvoje DI tematikoje, leidžiame sužinoti naujų techninių žinių.
+               Renginiai ir naujienos tai pat pasiekiamos
+               <a href="https://www.facebook.com/groups/artificialintelligence.lt/" target="_blank">Facebook'o grupėje</a>.  
+               Preiti renginiai pasiekiami:
+            </p>      
+          {{- end }}          
+
+
+          {{if eq $.Site.Language.Lang "en" }}
             <a class="button cta rounded secondary-btn raised" href="/news">Events</a>
+          {{- else }}
+            <a class="button cta rounded secondary-btn raised" href="/lt/news">Renginiai</a>       
+          {{- end }}
           </div>
           <div class="column is-6">
             <div class="columns is-centered">

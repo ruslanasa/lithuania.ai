@@ -1,28 +1,43 @@
 {{- $footer      := .Site.Params.footer }}
 {{- $logo        := index $footer "logo" }}
+{{- $logolt        := index $footer "logolt" }}
 {{- $quickLinks  := index $footer "quicklinks" }}
 {{- $socialMedia := index $footer "socialmedia" }}
 {{- $bulmaLogo   := index $footer "bulmalogo" }}
 {{- $socialMediaTitle    := index $footer "socialmediatitle" }}
+{{- $socialMediaTitlelt    := index $footer "socialmediatitlelt" }}
 <footer class="footer footer-dark">
   <div class="container">
     <div class="columns">
       <div class="column">
         <div class="footer-logo">
-          <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
+            {{if eq $.Site.Language.Lang "en" }}
+              <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
+            {{- else }}
+              <img src="{{ printf "/images/logos/%s" $logolt | relURL }}">
+            {{- end }}
+
         </div>
       </div>
       {{- range $quickLinks }}
         <div class="column">
           <div class="footer-column">
             <div class="footer-header">
+              {{if eq $.Site.Language.Lang "en" }}
                 <h3>{{ .title }}</h3>
+              {{- else }}
+                <h3>{{ .titlelt }}</h3>
+              {{- end }}                
             </div>
             <ul class="link-list">
               {{- range .links }}
               <li>
                 <a href="{{ .link }}">
-                  {{ .text }}
+              {{if eq $.Site.Language.Lang "en" }}
+                <h3>{{ .text }}</h3>
+              {{- else }}
+                <h3>{{ .textlt }}</h3>
+              {{- end }}   
                 </a>
               </li>
               {{- end }}
@@ -33,7 +48,11 @@
       <div class="column">
         <div class="footer-column">
           <div class="footer-header">
+            {{if eq $.Site.Language.Lang "en" }}
             <h3>{{ $socialMediaTitle }}</h3>
+            {{- else }}
+            <h3>{{ $socialMediaTitlelt }}</h3>       
+            {{- end }}            
             <nav class="level is-mobile">
               <div class="level-left">
                 {{- range $socialMedia }}
