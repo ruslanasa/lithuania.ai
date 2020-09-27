@@ -42,8 +42,8 @@ disableKinds = [
   [params.hero]
     title = "Join the AI Association of Lithuania!"
     titlelt = "Junkitės į Lietuvos dirbtinio intelekto asociaciją!"    
-    subtitle = "The community of professionals and enthusiasts dedicated to artificial intelligence development in Lithuania."
-    subtitlelt = "Profesionalų ir entuziastų bendruomenė kurianti ir vystanti dirbtinį intelektą Lietuvoje."
+    subtitle = "The community of professionals and enthusiasts dedicated to promoting and encouraging AI integration and development in Lithuania."
+    subtitlelt = "Profesionalų ir entuziastų bendruomenė skatinanti DI taikymą, bei vystimą Lietuvoje."
     buttontext = "Join us"
     buttontextlt = "Prisijungti"    
     buttonlink = "/#membership"
@@ -77,7 +77,7 @@ disableKinds = [
 
   [[params.navbar]]
     title = "Publications"
-    titlelt = "Pozicijos"
+    titlelt = "Publikacijos"
     url = "/news/publications/"
     urllt = "/lt/news/publications/"
 
@@ -116,8 +116,8 @@ disableKinds = [
     titlelt = "Narystė"    
     subtitle = "Becoming a member of the AI community"
     subtitlelt = "Tapimas asociacijos nariu"
-    text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer.  In such way what matters most is that you are passionate about creating or just want to know more about AI."
-    textlt = "Asociacija yra ne pelno siekianti organizacija remiama savanorių, palaikančių narių. Asociacija pastoviai ieško savanorių."
+    text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. What matters most is that you are passionate about creating or just want to know more about AI."
+    textlt = "Asociacija yra ne pelno siekianti organizacija didžiąja dalimi veikianti savanorių, asociacijos narių ir remėjų pastangomis. Asociacija nuolat ieško naujų savanorių. Svarbiausia, kad turėtumėt norą kurti arba tiesiog norite sužinoti daugiau apie dirbtinį intelektą."
 
   [params.section4]
     title = "Members of association"

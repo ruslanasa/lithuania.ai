@@ -1,5 +1,5 @@
 ---
-title: "Pozicijos"
+title: "Publikacijos"
 include_footer: true
 draft: false
 ---
