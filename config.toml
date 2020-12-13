@@ -54,12 +54,10 @@ disableKinds = [
     secbuttonlinklt = "/lt/#mission"    
     image = "illustrations/Group_393x295.svg"
     memberlogos = [
-      "Exacaster_123x70@4x",
-      "NeuroTechnology_123x70@4x",
+      #"NeuroTechnology_123x70@4x",
       "Oxipit_123x70@4x",
       "Pixelmator_123x70@4x",
       "Satalia_123x70@4x",
-      "Unity_123x70@4x",
       "3_3"
     ]
 
@@ -87,6 +85,12 @@ disableKinds = [
     url = "/#membership"
     urllt = "/lt/#membership"
 
+  [[params.navbar]]
+    title = "Members"
+    titlelt = "Nariai"    
+    url = "https://www.notion.so/mokahaiku/Members-fd8615d1967449be8b15b04e69bcdb41"
+    urllt = "https://www.notion.so/mokahaiku/Members-fd8615d1967449be8b15b04e69bcdb41"
+    
   [[params.navbar]]
     title = "Friends"
     titlelt = "Draugai"    
@@ -119,12 +123,12 @@ disableKinds = [
     text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. What matters most is that you are passionate about creating or just want to know more about AI."
     textlt = "Asociacija yra ne pelno siekianti organizacija didžiąja dalimi veikianti savanorių, asociacijos narių ir remėjų pastangomis. Asociacija nuolat ieško naujų savanorių. Svarbiausia, kad turėtumėt norą kurti arba tiesiog norite sužinoti daugiau apie dirbtinį intelektą."
 
-  [params.section4]
-    title = "Members of association"
-    titlelt = "Asociacijos nariai"
-    subtitle = "The companies that are members of Aritificial Intelligence Association of Lithuania"
-    subtitlelt = "Įmonės ir startuoliai priklausantys Lietuvos dirbtinio intelekto asociacijai"
-    text = ""
+  #[params.section4]
+  #  title = "Members of association"
+  #  titlelt = "Asociacijos nariai"
+  #  subtitle = "The companies that are members of Aritificial Intelligence Association of Lithuania"
+  #  subtitlelt = "Įmonės ir startuoliai priklausantys Lietuvos dirbtinio intelekto asociacijai"
+  #  text = ""
 
   [params.section5]
     title = "Friends and Partners"
