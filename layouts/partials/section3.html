@@ -2,11 +2,21 @@
 {{- $title    := index $section3 "title" }}
 {{- $subtitle := index $section3 "subtitle" }}
 {{- $text    := index $section3 "text" }}
+{{- $titlelt    := index $section3 "titlelt" }}
+{{- $subtitlelt := index $section3 "subtitlelt" }}
+{{- $textlt    := index $section3 "textlt" }}
+
 <section id="membership" class="section section-feature-grey is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2">{{ $title }}</h2>
-      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+
+          {{if eq $.Site.Language.Lang "en" }}
+          <h2 class="title is-2">{{ $title }}</h2>
+          <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+          {{- else }}
+          <h2 class="title is-2">{{ $titlelt }}</h2>
+          <h3 class="subtitle is-5 is-muted">{{ $subtitlelt }}</h3>      
+          {{- end }}      
       <div class="divider is-centered"></div>
     </div>
 
@@ -14,7 +24,12 @@
       <div class="content">
         <div class="columns is-centered has-text-centered">
           <div class="column is-10">
+
+            {{if eq $.Site.Language.Lang "en" }}
             <p class="content">{{ $text }}</p>
+            {{- else }}
+            <p class="content">{{ $textlt }}</p>        
+            {{- end }}            
           </div>
         </div>
       </div>
@@ -23,9 +38,16 @@
           <article class="tile is-child box has-no-padding">
             <div class="card-header">
               <div class="card-header-title has-padding-2em has-text-centered has-dead-purple-bgcolor">
+            {{if eq $.Site.Language.Lang "en" }}
                 <p class="title is-4">What is the membership fee?</p>
+            {{- else }}
+                <p class="title is-4">Koks yra narystės mokestis?</p>
+            {{- end }}  
+
               </div>
             </div>
+
+          {{if eq $.Site.Language.Lang "en" }}
             <div class="content has-padding-2em">
               <ul class="has-padding-1em-bottom">
                 <li>Individual membership is 100 EUR per year.</li>
@@ -33,32 +55,62 @@
                 <li>Company membership is 1000 EUR per year.</li>
               </ul>
             </div>
-          </article>
-        </div>
-        <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
-          <article class="tile is-child box has-no-padding">
-            <div class="card-header">
-              <div class="card-header-title has-padding-2em has-text-centered has-dead-purple-bgcolor">
-                <p class="title is-4">How do I become a member?</p>
-              </div>
-            </div>
+          {{- else }}
             <div class="content has-padding-2em">
               <ul class="has-padding-1em-bottom">
-                <li>Get acquainted with the <a href="/files/ldia_istatai.pdf" target="_blank">bylaws</a>.</li>
-                <li>Fill in the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhmKHrb_pwCDQssZAY8ME1EwnwUUh2IGd9TGMj9RSU8_mImg/viewform" target="_blank">application form</a>.</li>
-                <li>Wait for a community member’s approval, which comes by email.</li>
-                <li>Transfer membership fee to a bank account.</li>
+                <li>Individuali narystė metams kainuoja 100 EUR.</li>
+                <li>Startuoliams (iki 10 žmonių) narystės mokestis yra 500 EUR metams.</li>
+                <li>Įmonių narystės mokestis yra 1000 EUR metams.</li>
               </ul>
-            </div>
+            </div>       
+          {{- end }}            
           </article>
         </div>
         <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
           <article class="tile is-child box has-no-padding">
             <div class="card-header">
               <div class="card-header-title has-padding-2em has-text-centered has-dead-purple-bgcolor">
-                <p class="title is-4">How to pay for membership?</p>
+            {{if eq $.Site.Language.Lang "en" }}
+                  <p class="title is-4">How do I become a member?</p>
+            {{- else }}
+                  <p class="title is-4">Kaip tapti nariu?</p>         
+            {{- end }}
               </div>
             </div>
+            {{if eq $.Site.Language.Lang "en" }}
+              <div class="content has-padding-2em">
+                <ul class="has-padding-1em-bottom">
+                  <li>Get acquainted with the <a href="/files/ldia_istatai.pdf" target="_blank">bylaws</a>.</li>
+                  <li>Fill in the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhmKHrb_pwCDQssZAY8ME1EwnwUUh2IGd9TGMj9RSU8_mImg/viewform" target="_blank">application form</a>.</li>
+                  <li>Wait for a community member’s approval, which comes by email.</li>
+                  <li>Transfer membership fee to a bank account.</li>
+                </ul>
+              </div>
+            {{- else }}
+              <div class="content has-padding-2em">
+                <ul class="has-padding-1em-bottom">
+                  <li>Susipažinkite su asociacijos  <a href="/files/ldia_istatai.pdf" target="_blank">įstatais</a>.</li>
+                  <li>Užpildykit prašymo <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhmKHrb_pwCDQssZAY8ME1EwnwUUh2IGd9TGMj9RSU8_mImg/viewform" target="_blank">formą</a>.</li>
+                  <li>Sulaukit valdybos narių narystės patvirtinimo el. paštu.</li>
+                  <li>Sumokėkit narystės mokestį.</li>
+                </ul>
+              </div>
+            {{- end }}
+          </article>
+        </div>
+        <div class="tile is-parent revealOnScroll delay-1" data-animation="fadeInLeft">
+          <article class="tile is-child box has-no-padding">
+            <div class="card-header">
+              <div class="card-header-title has-padding-2em has-text-centered has-dead-purple-bgcolor">
+                {{if eq $.Site.Language.Lang "en" }}
+                <p class="title is-4">How to pay for membership?</p>
+                {{- else }}
+                <p class="title is-4">Kaip sumokėti narystės mokestį?</p>
+                {{- end }}                
+              </div>
+            </div>
+
+              {{if eq $.Site.Language.Lang "en" }}
             <div class="content has-padding-2em">
               <ul class="has-padding-1em-bottom">
                 <li><b>Beneficiary:</b> Lietuvos dirbtinio intelekto asociacija</li>
@@ -66,6 +118,15 @@
                 <li><b>Type of information:</b> LDIA membership</li>
               </ul>
             </div>
+              {{- else }}
+            <div class="content has-padding-2em">
+              <ul class="has-padding-1em-bottom">
+                <li><b>Gavėjas:</b> Lietuvos dirbtinio intelekto asociacija</li>
+                <li><b>Gavėjo sąskaitos nr.:</b> LT067300010160163729</li>
+                <li><b>Pavedimo informacija:</b> LDIA narystės mokestis</li>
+              </ul>
+            </div>       
+              {{- end }}            
           </article>
         </div>
       </div>

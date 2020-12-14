@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://lithuania.ai/faq/</loc>
-    <lastmod>2020-02-01T18:18:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/news/meetup_3/</loc>
-    <lastmod>2020-01-28T23:38:37+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/</loc>
-    <lastmod>2020-01-28T23:38:37+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/news/</loc>
-    <lastmod>2020-01-24T22:25:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/news/meetup_2/</loc>
-    <lastmod>2019-12-05T22:38:37+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/news/meetup_1/</loc>
-    <lastmod>2019-10-10T22:26:13+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/news/publications/</loc>
-  </url>
-  
-  <url>
-    <loc>https://lithuania.ai/home/</loc>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://lithuania.ai/en/sitemap.xml</loc>
+		
+	   	<lastmod>2020-01-28T23:38:37+02:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://lithuania.ai/lt/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

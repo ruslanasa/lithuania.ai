@@ -9,7 +9,14 @@
     <div class="navbar-brand">
       {{- if $navbarLogo}}
       <a class="navbar-item" href="{{ $navbarLogo.link }}">
+
+                
+          {{if eq $.Site.Language.Lang "en" }}
         <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="200" height="50" style="max-height: 50px !important; height: 50px;">
+          {{- else }}
+        <img src="{{ printf "/images/%s" $navbarLogo.imagelt | relURL }}" alt="" width="200" height="50" style="max-height: 50px !important; height: 50px;">
+          {{- end }}
+
       </a>
       {{- end}}
 
@@ -55,27 +62,57 @@
         {{- if .sublinks }}
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
-            {{ .title }}
+          {{if eq $.Site.Language.Lang "en" }}
+          {{ .title }}
+          {{- else }}
+          {{ .titlelt }}          
+          {{- end }}
           </a>
 
           <div class="navbar-dropdown">
             {{- range .sublinks }}
+          {{if eq $.Site.Language.Lang "en" }}
             <a href="{{ .url }}" class="navbar-item">
-              {{ .title }}
+            {{ .title }}
+            </a>            
+          {{- else }}
+            <a href="{{ .urllt }}" class="navbar-item">          
+            {{ .titlelt }}          
             </a>
+          {{- end }}
+
             {{- end }}
           </div>
         </div>
         {{- else if .button }}
-        <a href="{{ .url }}" class="navbar-item">
-          <span class="button signup-button rounded secondary-btn raised">
+          {{if eq $.Site.Language.Lang "en" }}
+            <a href="{{ .url }}" class="navbar-item">
+              <span class="button signup-button rounded secondary-btn raised">
             {{ .title }}
-          </span>
-        </a>
+              </span>
+            </a>            
+          {{- else }}
+            <a href="{{ .urllt }}" class="navbar-item">
+              <span class="button signup-button rounded secondary-btn raised">          
+            {{ .titlelt }}      
+              </span>
+            </a>                
+          {{- end }}
+
         {{- else }}
-        <a href="{{ .url }}" class="navbar-item is-secondary">
-          {{ .title }}
-        </a>
+
+          
+          {{if eq $.Site.Language.Lang "en" }}
+            <a href="{{ .url }}" class="navbar-item is-secondary">          
+            {{ .title }}
+            </a>
+          {{- else }}
+            <a href="{{ .urllt }}" class="navbar-item is-secondary">          
+            {{ .titlelt }}       
+            </a>               
+          {{- end }}
+
+
         {{- end }}
         {{- end }}
       </div>

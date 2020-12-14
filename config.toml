@@ -1,5 +1,6 @@
 languageCode = "en-us"
 title = "Lithuania AI"
+DefaultContentLanguage  = "en"
 publishDir = "docs" # publish to docs for github pages compatibility
 baseURL = "https://lithuania.ai/"
 theme = "hugo-fresh"
@@ -21,6 +22,7 @@ disableKinds = [
 
   [params.navbarlogo]
     image = "logos/LDIA_200x50.svg"
+    imagelt = "logos/LDIA_Logo_LT_no_bg.svg"
     link = "/"
 
   [params.font]
@@ -30,192 +32,144 @@ disableKinds = [
       600.0
     ]
 
+  [params.header]
+    navbarTitle         = ""
+    dynamicTitles       = false
+    searchMenu          = false
+    shareMenu           = false
+    languageMenu        = true
+
   [params.hero]
     title = "Join the AI Association of Lithuania!"
-    subtitle = "The community of professionals and enthusiasts dedicated to artificial intelligence development in Lithuania."
+    titlelt = "Junkitės į Lietuvos dirbtinio intelekto asociaciją!"    
+    subtitle = "The community of professionals and enthusiasts dedicated to promoting and encouraging AI integration and development in Lithuania."
+    subtitlelt = "Profesionalų ir entuziastų bendruomenė skatinanti DI taikymą, bei vystimą Lietuvoje."
     buttontext = "Join us"
+    buttontextlt = "Prisijungti"    
     buttonlink = "/#membership"
+    buttonlinklt = "/lt/#membership"    
     secbuttontext = "Learn more"
+    secbuttontextlt = "Sužinoti daugiau"
     secbuttonlink = "/#mission"
+    secbuttonlinklt = "/lt/#mission"    
     image = "illustrations/Group_393x295.svg"
     memberlogos = [
-      "Exacaster_123x70@4x",
-      "NeuroTechnology_123x70@4x",
+      #"NeuroTechnology_123x70@4x",
       "Oxipit_123x70@4x",
       "Pixelmator_123x70@4x",
       "Satalia_123x70@4x",
-      "Unity_123x70@4x",
       "3_3"
     ]
 
   [[params.navbar]]
     title = "Mission"
+    titlelt = "Misija"    
     url = "/#mission"
+    urllt = "/lt/#mission"    
 
   [[params.navbar]]
     title = "Events"
+    titlelt = "Renginiai"    
     url = "/#events"
+    urllt = "/lt/#events"
 
   [[params.navbar]]
     title = "Publications"
+    titlelt = "Publikacijos"
     url = "/news/publications/"
+    urllt = "/lt/news/publications/"
 
   [[params.navbar]]
     title = "Membership"
+    titlelt = "Narystė"    
     url = "/#membership"
+    urllt = "/lt/#membership"
 
   [[params.navbar]]
+    title = "Members"
+    titlelt = "Nariai"    
+    url = "https://www.notion.so/mokahaiku/Members-fd8615d1967449be8b15b04e69bcdb41"
+    urllt = "https://www.notion.so/mokahaiku/Members-fd8615d1967449be8b15b04e69bcdb41"
+    
+  [[params.navbar]]
     title = "Friends"
+    titlelt = "Draugai"    
     url = "/#friends"
+    urllt = "/lt/#friends"
 
-  # [[params.navbar]]
-  #   title = "Contacts"
-  #   url = "/"
+  [[params.navbar]]
+    title = "LT"
+    titlelt = "LT"    
+    url = "/lt/"
+    urllt = "/lt/"
+
+  [[params.navbar]]
+    title = "EN"
+    titlelt = "EN"    
+    url = "/en/"
+    urllt = "/en"
 
   [params.section2]
     title = "Events"
+    titlelt = "Renginiai"    
     subtitle = "events"
     text = ""
 
   [params.section3]
     title = "Membership"
+    titlelt = "Narystė"    
     subtitle = "Becoming a member of the AI community"
-    text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. No previous experience in AI or development is necessary. What matters most is that you are passionate about creating or just want to know more about AI."
+    subtitlelt = "Tapimas asociacijos nariu"
+    text = "We are a not-for-profit and rely on the efforts of volunteers and support of members or patrons. Association is always looking for new people to volunteer. What matters most is that you are passionate about creating or just want to know more about AI."
+    textlt = "Asociacija yra ne pelno siekianti organizacija didžiąja dalimi veikianti savanorių, asociacijos narių ir remėjų pastangomis. Asociacija nuolat ieško naujų savanorių. Svarbiausia, kad turėtumėt norą kurti arba tiesiog norite sužinoti daugiau apie dirbtinį intelektą."
 
-  [params.section4]
-    title = "Members of association"
-    subtitle = "The companies that are members of Aritificial Intelligence Association of Lithuania"
-    text = ""
+  #[params.section4]
+  #  title = "Members of association"
+  #  titlelt = "Asociacijos nariai"
+  #  subtitle = "The companies that are members of Aritificial Intelligence Association of Lithuania"
+  #  subtitlelt = "Įmonės ir startuoliai priklausantys Lietuvos dirbtinio intelekto asociacijai"
+  #  text = ""
 
   [params.section5]
     title = "Friends and Partners"
+    titlelt = "Asociacijos rėmėjai ir partneriai"    
     subtitle = "The organizations and associations which Aritificial Intelligence Association of Lithuania support"
+    subtitlelt = "Organizacijos palaikančios Lietuvos dirbtinio intelekto asociaciją"
     text = ""
 
-  #   [[params.section1.tiles]]
-  #     title = "App builder"
-  #     icon = "mouse-globe"
-  #     text = "This is some explanatory text that is on two rows"
-  #     url = "/"
-  #     buttonText = "Free trial"
-
-  #   [[params.section1.tiles]]
-  #     title = "Cloud integration"
-  #     icon = "laptop-cloud"
-  #     text = "This is some explanatory text that is on two rows"
-  #     url = "/"
-  #     buttonText = "Get started"
-
-  #   [[params.section1.tiles]]
-  #     title = "Add-ons & plugins"
-  #     icon = "plug-cloud"
-  #     text = "This is some explanatory text that is on two rows"
-  #     url = "/"
-  #     buttonText = "Get started"
-
-  # [params.section2]
-  #   title = "You're here because you want the best"
-  #   subtitle = "And we know it"
-
-  #   [[params.section2.features]]
-  #     title = "Powerful and unified interface"
-  #     text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-  #     icon = "laptop-globe"
-
-  #   [[params.section2.features]]
-  #     title = "Cross-device synchronisation"
-  #     text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-  #     icon = "doc-sync"
-
-  #   [[params.section2.features]]
-  #     title = "Nomad system"
-  #     text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
-  #     icon = "mobile-feed"
-
-  # [params.section3]
-  #   title = "One platform"
-  #   subtitle = "To rule them all"
-  #   image = "illustrations/mockups/app-mockup.png"
-  #   buttonText = "Get started"
-  #   buttonLink = "#"
-
-  # [params.section4]
-  #   title = "Our Clients love us!"
-  #   subtitle = "Lorem ipsum sit dolor amet is a dummy text used by typography industry"
-
-  #   [[params.section4.clients]]
-  #     name = "Irma Walters"
-  #     quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-  #     job = "Accountant"
-  #     img = 1.0
-
-  #   [[params.section4.clients]]
-  #     name = "John Bradley"
-  #     quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-  #     job = "Financial Analyst"
-  #     img = 2.0
-
-  #   [[params.section4.clients]]
-  #     name = "Gary Blackman"
-  #     quote = "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at."
-  #     job = "HR Manager"
-  #     img = 3.0
 
   [params.footer]
     logo = "LDIA_200x50_white.svg"
+    logolt = "LDIA_Logo_LT_no_bg.svg"
     socialmediatitle = "Follow Us"
+    socialmediatitlelt = "Sekite LDIA naujienas"    
     bulmalogo = false
 
     [params.footer.quicklinks]
 
       [params.footer.quicklinks.column1]
         title = "Info"
+        titlelt = "Informacija"        
 
         [[params.footer.quicklinks.column1.links]]
           text = "Bylaws (in lithuanian)"
-          link = "files/ldia_istatai.pdf"
+          textlt = "Įstatai"          
+          link = "https://lithuania.ai/files/ldia_istatai.pdf"
 
         [[params.footer.quicklinks.column1.links]]
           text = "Member application form"
+          textlt = "Narystės forma"          
           link = "https://docs.google.com/forms/d/e/1FAIpQLSddLuSeS5BUFgY7RSHP1_urgg0rSALZMvL_pZicbxt-Xe4u7w/viewform"
-
-        # [[params.footer.quicklinks.column1.links]]
-        #   text = "FAQ"
-        #   link = "/faq"
 
       [params.footer.quicklinks.column2]
         title = "Contacts"
+        titlelt = "Kontaktai"        
         
         [[params.footer.quicklinks.column2.links]]
           text = "Email: info@lithuania.ai"
+          textlt = "El. paštas: info@lithuania.ai"          
           link = "mailto: info@lithuania.ai"
 
-    #     [[params.footer.quicklinks.column2.links]]
-    #       text = "Get started"
-    #       link = "/"
-
-    #     [[params.footer.quicklinks.column2.links]]
-    #       text = "User guides"
-    #       link = "/"
-
-    #     [[params.footer.quicklinks.column2.links]]
-    #       text = "Admin guide"
-    #       link = "/"
-
-    #     [[params.footer.quicklinks.column2.links]]
-    #       text = "Developers"
-    #       link = "/"
-
-    #   [params.footer.quicklinks.column3]
-    #     title = "Blog"
-
-    #     [[params.footer.quicklinks.column3.links]]
-    #       text = "Latest news"
-    #       link = "/blog/first"
-
-    #     [[params.footer.quicklinks.column3.links]]
-    #       text = "Tech articles"
-    #       link = "/blog/second"
 
     [[params.footer.socialmedia]]
       link = "https://ai-lithuania.slack.com/join/shared_invite/enQtNTYzMjM3MzAwMTc4LTQ2ZGY2YTE3OWY1NjBmZWE0ZTE2NzY5OGQ5OGFkYzNkNzZjYWE4ZTEwYmZkMTM5YjRlOWI4MTE1NGNlNzAwMDU?fbclid=IwAR30mLUmQxwtltorZgb9O8aVhlE4q-9gjbeJ7l_3SCsnjO6ll8QuEY7dd0g"
@@ -232,4 +186,23 @@ disableKinds = [
     [[params.footer.socialmedia]]
       link = "https://www.eventbrite.com/o/artificial-intelligence-association-of-lithuania-ldia-16793448984"
       icon = "ticket"
+
+
+
+
+
+[Languages]
+
+  [Languages.en]
+    LanguageCode        = "en"
+    LanguageName        = "English"
+    weight              = 1
+
+  [Languages.lt]
+    LanguageCode        = "lt"
+    LanguageName        = "Lietuvių"
+    title               = "Lietuvos dirbtinio intelekto asociacija"
+    weight              = 2
+
+
 
