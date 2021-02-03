@@ -98,6 +98,24 @@ disableKinds = [
     urllt = "/lt/#friends"
 
   [[params.navbar]]
+    title = "OKRs"
+    titlelt = "OKRs"
+    url = "https://www.notion.so/1062403a979c4e20b9f37868221a0f63"
+    urllt = "https://www.notion.so/1062403a979c4e20b9f37868221a0f63"
+
+  [[params.navbar]]
+    title = "Projects"
+    titlelt = "Projektai"    
+    url = "https://www.notion.so/3bb4e0947f484f0c97ee7a81f0c57ec0"
+    urllt = "https://www.notion.so/3bb4e0947f484f0c97ee7a81f0c57ec0"
+
+  [[params.navbar]]
+    title = "Meetups"
+    titlelt = "Meetupai"    
+    url = "https://www.tribeofai.com/topics/1965940/list"
+    urllt = "https://www.tribeofai.com/topics/1965940/list"
+
+  [[params.navbar]]
     title = "LT"
     titlelt = "LT"    
     url = "/lt/"
