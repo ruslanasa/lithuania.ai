@@ -6,7 +6,11 @@
     <description>Recent content in News on Lithuania AI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jan 2020 22:25:14 +0200</lastBuildDate><atom:link href="https://lithuania.ai/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jan 2020 22:25:14 +0200</lastBuildDate>
+    
+	<atom:link href="https://lithuania.ai/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Artificial Intelligence Meetup #3</title>
       <link>https://lithuania.ai/news/meetup_3/</link>
