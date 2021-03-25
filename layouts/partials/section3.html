@@ -82,8 +82,7 @@
                 <ul class="has-padding-1em-bottom">
                   <li>Get acquainted with the <a href="/files/ldia_istatai.pdf" target="_blank">bylaws</a>.</li>
                   <li>Fill in the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhmKHrb_pwCDQssZAY8ME1EwnwUUh2IGd9TGMj9RSU8_mImg/viewform" target="_blank">application form</a>.</li>
-                  <li>Wait for a community member’s approval, which comes by email.</li>
-                  <li>Transfer membership fee to a bank account.</li>
+                  <li>Wait for a board member’s approval, which comes by email.</li>
                 </ul>
               </div>
             {{- else }}
@@ -92,7 +91,6 @@
                   <li>Susipažinkite su asociacijos  <a href="/files/ldia_istatai.pdf" target="_blank">įstatais</a>.</li>
                   <li>Užpildykit prašymo <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhmKHrb_pwCDQssZAY8ME1EwnwUUh2IGd9TGMj9RSU8_mImg/viewform" target="_blank">formą</a>.</li>
                   <li>Sulaukit valdybos narių narystės patvirtinimo el. paštu.</li>
-                  <li>Sumokėkit narystės mokestį.</li>
                 </ul>
               </div>
             {{- end }}
@@ -113,17 +111,17 @@
               {{if eq $.Site.Language.Lang "en" }}
             <div class="content has-padding-2em">
               <ul class="has-padding-1em-bottom">
-                <li><b>Beneficiary:</b> Lietuvos dirbtinio intelekto asociacija</li>
-                <li><b>Beneficiary’s account:</b> LT067300010160163729</li>
-                <li><b>Type of information:</b> LDIA membership</li>
+                <li><b>Stripe:</b> We using Stripe as payment system</li>
+                <li><b>Confirmation:</b> After board confirmation you will be receive the link 
+                to make a payment.</li>
               </ul>
             </div>
               {{- else }}
             <div class="content has-padding-2em">
               <ul class="has-padding-1em-bottom">
-                <li><b>Gavėjas:</b> Lietuvos dirbtinio intelekto asociacija</li>
-                <li><b>Gavėjo sąskaitos nr.:</b> LT067300010160163729</li>
-                <li><b>Pavedimo informacija:</b> LDIA narystės mokestis</li>
+                <li><b>Stripe:</b> Narystės apmokėjimas vyksta per Stripe platforma </li>
+                <li><b>Patvirtinimas:</b> Jei valdyba patvirtina narystę -- gausite laišką 
+                kaip atlikti apmokėjimą.</li>
               </ul>
             </div>       
               {{- end }}            
