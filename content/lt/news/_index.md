@@ -6,6 +6,10 @@ draft: false
 ---
 
 
+**2021-03-22 AIAL Hackathon | Awards (#32):**
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Mah-WzYdQKg/0.jpg)](https://www.youtube.com/watch?v=Mah-WzYdQKg)
+
 * **2021-03-16/22 LDIA Hakatonas:** 
 
 Norėdami pritraukti ir motyvuoti kuo daugiau žmonių prisijungti prie mašininio mokymosi/dirbtinio intelekto bendruomenės
