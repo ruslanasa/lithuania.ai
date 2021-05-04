@@ -80,6 +80,12 @@ disableKinds = [
     urllt = "/lt/news/publications/"
 
   [[params.navbar]]
+    title = "Definitions"
+    titlelt = "Sąvokos"
+    url = "/news/definitions/"
+    urllt = "/lt/news/savokos/"
+
+  [[params.navbar]]
     title = "Membership"
     titlelt = "Narystė"    
     url = "/#membership"
