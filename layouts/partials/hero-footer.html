@@ -3,29 +3,23 @@
 {{- $memberLogos2 := index $hero "memberlogos2" }}
 <div class="hero-foot mb-20" style="padding: 0pt 20pt 0pt 20pt;">
   <div class="container">
-    <div class="columns">
-      <div class="column is-6">
-        <div class="columns is-mobile">
-          {{- range $memberLogos1 }}
-          <div class="column is-4">
-            <a>
-              <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
-            </a>
-          </div>
-          {{- end }}
-        </div>
+    <div class="columns is-mobile is-centered">
+      {{- range $memberLogos1 }}
+      <div class="column is-2-desktop is-2-tablet is-3-mobile">
+        <a>
+          <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
+        </a>
       </div>
-      <div class="column is-6">
-        <div class="columns is-mobile">
-          {{- range $memberLogos2 }}
-          <div class="column is-4">
-            <a>
-              <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
-            </a>
-          </div>
-          {{- end }}
-        </div>
+      {{- end }}
+    </div>
+    <div class="columns is-mobile is-centered">
+      {{- range $memberLogos2 }}
+      <div class="column is-2-desktop is-2-tablet is-3-mobile">
+        <a>
+          <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
+        </a>
       </div>
+      {{- end }}
     </div>
   </div>
 </div>

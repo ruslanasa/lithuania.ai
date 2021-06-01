@@ -57,12 +57,12 @@ disableKinds = [
       #"NeuroTechnology_123x70@4x",
       "Oxipit_123x70@4x",
       "Pixelmator_123x70@4x",
-      "Satalia_123x70@4x",
+      "threethirds_123x70@4x",
+      "Nascent_123x70@4x"
     ]
     memberlogos2 = [
-      "3_3",
-      "Vinted_123x70@4x",
-      "Nascent_123x70@4x"
+      "Satalia_123x70@4x",
+      "Vinted_123x70@4x"
     ]
 
   [[params.navbar]]
