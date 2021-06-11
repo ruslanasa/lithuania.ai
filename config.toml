@@ -54,7 +54,6 @@ disableKinds = [
     secbuttonlinklt = "/lt/#mission"    
     image = "illustrations/Group_393x295.svg"
     memberlogos1 = [
-      #"NeuroTechnology_123x70@4x",
       "Oxipit_123x70@4x",
       "Pixelmator_123x70@4x",
       "threethirds_123x70@4x",
@@ -62,7 +61,8 @@ disableKinds = [
     ]
     memberlogos2 = [
       "Satalia_123x70@4x",
-      "Vinted_123x70@4x"
+      "Vinted_123x70@4x",
+      "NeuroTechnology_123x70@4x",
     ]
 
   [[params.navbar]]
