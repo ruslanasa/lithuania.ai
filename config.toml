@@ -63,6 +63,7 @@ disableKinds = [
       "Satalia_123x70@4x",
       "Vinted_123x70@4x",
       "NeuroTechnology_123x70@4x",
+      "Biomatter_Desing_123x70@4x"
     ]
 
   [[params.navbar]]
