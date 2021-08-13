@@ -6,20 +6,7 @@
     <description>Recent content in Naujausi renginiai on Lithuania AI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Mar 2021 22:25:14 +0200</lastBuildDate>
-    
-	<atom:link href="https://lithuania.ai/lt/news/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>DI sąvokos</title>
-      <link>https://lithuania.ai/lt/news/dirbtuves/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lithuania.ai/lt/news/dirbtuves/</guid>
-      <description> </description>
-    </item>
-    
+    <lastBuildDate>Sat, 20 Mar 2021 22:25:14 +0200</lastBuildDate><atom:link href="https://lithuania.ai/lt/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DI sąvokos</title>
       <link>https://lithuania.ai/lt/news/savokos/</link>
