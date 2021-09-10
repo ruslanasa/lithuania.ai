@@ -57,9 +57,6 @@ List of companies that sponsored meetups or partnered with us in other ways.
   <div class="column is-one-fifth" style="margin: auto;">
     <div class="card">
       <div class="card-image">
-        <a href="https://satalia.com" target="_blank">
-          <img style="border: none; box-shadow: none;" width="100" height="100" src="satalia.png" alt="Satalia">
-        </a>
       </div>
     </div>
   </div>
