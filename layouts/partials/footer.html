@@ -53,7 +53,7 @@
             {{- else }}
             <h3>{{ $socialMediaTitlelt }}</h3>       
             {{- end }}            
-            <nav class="level is-mobile">
+            <!-- <nav class="level is-mobile">
               <div class="level-left">
                 {{- range $socialMedia }}
                 <a class="level-item" href="{{ .link }}" target="_blank">
@@ -61,8 +61,17 @@
                 </a>
                 {{- end }}
               </div>
-            </nav>
+            </nav> -->
           </div>
+          <ul class="link-list">
+            {{- range $socialMedia }}
+            <li>
+              <a href="{{ .link }}">
+              <h3>{{ .text }}</h3>
+              </a>
+            </li>
+            {{- end }}
+          </ul>
         </div>
       </div>
     </div>

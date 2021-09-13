@@ -5,10 +5,6 @@
     <link>https://lithuania.ai/lt/</link>
     <description>Recent content on Lietuvos dirbtinio intelekto asociacija</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>lt</language>
-    
-	<atom:link href="https://lithuania.ai/lt/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>lt</language><atom:link href="https://lithuania.ai/lt/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
