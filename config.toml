@@ -197,19 +197,23 @@ disableKinds = [
 
     [[params.footer.socialmedia]]
       link = "https://ai-lithuania.slack.com/join/shared_invite/enQtNTYzMjM3MzAwMTc4LTQ2ZGY2YTE3OWY1NjBmZWE0ZTE2NzY5OGQ5OGFkYzNkNzZjYWE4ZTEwYmZkMTM5YjRlOWI4MTE1NGNlNzAwMDU?fbclid=IwAR30mLUmQxwtltorZgb9O8aVhlE4q-9gjbeJ7l_3SCsnjO6ll8QuEY7dd0g"
-      icon = "slack"
+      text = "slack"
 
     [[params.footer.socialmedia]]
       link = "https://www.facebook.com/groups/artificialintelligence.lt/"
-      icon = "facebook"
+      text = "facebook"
 
     [[params.footer.socialmedia]]
       link = "https://www.linkedin.com/company/lithuania-ai/"
-      icon = "linkedin"
+      text = "linkedin"
 
     [[params.footer.socialmedia]]
-      link = "https://www.eventbrite.com/o/artificial-intelligence-association-of-lithuania-ldia-16793448984"
-      icon = "ticket"
+      link = "https://www.meetup.com/lithuania-ai/"
+      text = "meetup"
+    
+    [[params.footer.socialmedia]]
+      link = "https://twitter.com/lithuania_ai"
+      text = "twitter"
 
 
 
