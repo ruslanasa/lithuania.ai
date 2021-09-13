@@ -53,7 +53,7 @@ So we organized an event where hackhators can work on two problems.
 
 
 
-[Rest of the join AIAL and Tribe of AI meetups can be found here](https://www.tribeofai.com/topics/1965940/list)
+[Rest of the joint AIAL and Tribe of AI meetups can be found here](https://www.tribeofai.com/topics/1965940/list)
 
 
-[Rest of the join AIAL meetups from 2019-2020 can be found here](https://www.youtube.com/watch?v=C3Z-XecjFLE)
+[Rest of the joint AIAL meetups from 2019-2020 can be found here](https://www.youtube.com/watch?v=C3Z-XecjFLE)
