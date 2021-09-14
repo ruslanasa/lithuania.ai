@@ -16,6 +16,7 @@ disableKinds = [
 
 [params]
   description = "Artificial Intelligence Association of Lithuania community site"
+  images = ["/images/logos/LDIA_200x50.svg"]
   custom_css = ["css/custom.css"]
   openGraph = true
   #section5 = true
