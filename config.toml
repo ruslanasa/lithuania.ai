@@ -165,7 +165,7 @@ disableKinds = [
 
   [params.footer]
     logo = "LDIA_200x50_white.svg"
-    logolt = "LDIA_Logo_LT_no_bg.svg"
+    logolt = "LDIA_200x50_white.svg"
     socialmediatitle = "Follow Us"
     socialmediatitlelt = "Sekite LDIA naujienas"    
     bulmalogo = false
