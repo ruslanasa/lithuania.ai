@@ -1,6 +1,7 @@
 {{- $hero        := .Site.Params.hero }}
 {{- $memberLogos1 := index $hero "memberlogos1" }}
 {{- $memberLogos2 := index $hero "memberlogos2" }}
+{{- $memberLogos3 := index $hero "memberlogos3" }}
 <div class="hero-foot mb-20" style="padding: 0pt 20pt 0pt 20pt;">
   <div class="container">
     <div class="columns is-mobile is-centered">
@@ -21,5 +22,14 @@
       </div>
       {{- end }}
     </div>
+    <div class="columns is-mobile is-centered">
+      {{- range $memberLogos3 }}
+      <div class="column is-2-desktop is-2-tablet is-3-mobile">
+        <a>
+          <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
+        </a>
+      </div>
+      {{- end }}
+    </div>    
   </div>
 </div>

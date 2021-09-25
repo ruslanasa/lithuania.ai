@@ -1,5 +1,5 @@
 ---
-title: "AI definitions in Lithuania"
+title: "AI definitions in Lithuanian"
 include_footer: true
 draft: false
 ---
