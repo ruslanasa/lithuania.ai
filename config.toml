@@ -53,19 +53,22 @@ disableKinds = [
     secbuttontextlt = "Sužinoti daugiau"
     secbuttonlink = "/#mission"
     secbuttonlinklt = "/lt/#mission"    
-    image = "illustrations/Group_393x295.svg"
+    image = "illustrations/AIAL_case_2.png"
     memberlogos1 = [
       "Oxipit_123x70@4x",
       "Pixelmator_123x70@4x",
-      "threethirds_123x70@4x",
-      "Nascent_123x70@4x"
+      "threethirds_123x70@4x"
     ]
     memberlogos2 = [
+      "Nascent_123x70@4x",
       "Scorify_123x70@4x",
-      "Vinted_123x70@4x",
-      "NeuroTechnology_123x70@4x",
-      "Biomatter_Desing_123x70@4x"
+      "Vinted_123x70@4x"
     ]
+    memberlogos3 = [
+      "NeuroTechnology_123x70@4x",
+      "Biomatter_Desing_123x70@4x",
+      "Ovoko_123x70@4x"
+    ]    
 
   [[params.navbar]]
     title = "Mission"
