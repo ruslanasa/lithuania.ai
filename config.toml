@@ -69,7 +69,8 @@ disableKinds = [
     memberlogos3 = [
       "Ovoko_123x70@4x",
       "TE_123x70@4x"
-    ]    
+    ]
+        
 
   [[params.navbar]]
     title = "Mission"
