@@ -57,18 +57,20 @@ disableKinds = [
     memberlogos1 = [
       "Oxipit_123x70@4x",
       "Pixelmator_123x70@4x",
-      "threethirds_123x70@4x"
+      "threethirds_123x70@4x",
+      "Nascent_123x70@4x"
     ]
     memberlogos2 = [
-      "Nascent_123x70@4x",
       "Scorify_123x70@4x",
-      "Vinted_123x70@4x"
+      "Vinted_123x70@4x",
+      "NeuroTechnology_123x70@4x",
+      "Biomatter_Desing_123x70@4x"      
     ]
     memberlogos3 = [
-      "NeuroTechnology_123x70@4x",
-      "Biomatter_Desing_123x70@4x",
-      "Ovoko_123x70@4x"
-    ]    
+      "Ovoko_123x70@4x",
+      "TE_123x70@4x"
+    ]
+        
 
   [[params.navbar]]
     title = "Mission"
