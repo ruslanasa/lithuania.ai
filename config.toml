@@ -58,16 +58,18 @@ disableKinds = [
       { logo = "Oxipit_123x70@4x", url = "https://oxipit.ai/" },
       { logo = "Pixelmator_123x70@4x", url = "https://pixelmator.com/" },
       { logo = "threethirds_123x70@4x", url = "https://threethirds.ai/" },
-      { logo = "Nascent_123x70@4x", url = "https://www.nascent-works.com/" },
     ]
     memberlogos2 = [
+      { logo = "Nascent_123x70@4x", url = "https://www.nascent-works.com/" },
       { logo = "Scorify_123x70@4x", url = "https://scorify.ai/" },
       { logo = "Vinted_123x70@4x", url = "https://www.vinted.com/" },
-      { logo = "NeuroTechnology_123x70@4x", url = "https://www.neurotechnology.com/" },
-      { logo = "Biomatter_Desing_123x70@4x", url = "https://www.biomatterdesigns.com/" },
     ]
     memberlogos3 = [
-      { logo = "Ovoko_123x70@4x", url = "https://join.ovoko.com/" },
+      { logo = "NeuroTechnology_123x70@4x", url = "https://www.neurotechnology.com/" },
+      { logo = "Biomatter_Desing_123x70@4x", url = "https://www.biomatterdesigns.com/" },
+      { logo = "Ovoko_123x70@4x", url = "https://rrr.lt/" },
+    ]
+    memberlogos4 = [
       { logo = "TE_123x70@4x", url = "https://www.tietoevry.com/" },
     ]
 
