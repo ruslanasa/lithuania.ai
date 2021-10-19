@@ -55,22 +55,21 @@ disableKinds = [
     secbuttonlinklt = "/lt/#mission"    
     image = "illustrations/AIAL_case_2.png"
     memberlogos1 = [
-      "Oxipit_123x70@4x",
-      "Pixelmator_123x70@4x",
-      "threethirds_123x70@4x",
-      "Nascent_123x70@4x"
+      { logo = "Oxipit_123x70@4x", url = "https://oxipit.ai/" },
+      { logo = "Pixelmator_123x70@4x", url = "https://pixelmator.com/" },
+      { logo = "threethirds_123x70@4x", url = "https://threethirds.ai/" },
+      { logo = "Nascent_123x70@4x", url = "https://www.nascent-works.com/" },
     ]
     memberlogos2 = [
-      "Scorify_123x70@4x",
-      "Vinted_123x70@4x",
-      "NeuroTechnology_123x70@4x",
-      "Biomatter_Desing_123x70@4x"      
+      { logo = "Scorify_123x70@4x", url = "https://scorify.ai/" },
+      { logo = "Vinted_123x70@4x", url = "https://www.vinted.com/" },
+      { logo = "NeuroTechnology_123x70@4x", url = "https://www.neurotechnology.com/" },
+      { logo = "Biomatter_Desing_123x70@4x", url = "https://www.biomatterdesigns.com/" },
     ]
     memberlogos3 = [
-      "Ovoko_123x70@4x",
-      "TE_123x70@4x"
+      { logo = "Ovoko_123x70@4x", url = "https://join.ovoko.com/" },
+      { logo = "TE_123x70@4x", url = "https://www.tietoevry.com/" },
     ]
-        
 
   [[params.navbar]]
     title = "Mission"

@@ -7,8 +7,8 @@
     <div class="columns is-mobile is-centered">
       {{- range $memberLogos1 }}
       <div class="column is-2-desktop is-2-tablet is-3-mobile">
-        <a>
-          <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
+        <a href="{{.url}}" target="_blank">
+          <img src="{{ printf "/images/logos/members/%s.png" .logo | relURL }}">
         </a>
       </div>
       {{- end }}
@@ -16,8 +16,8 @@
     <div class="columns is-mobile is-centered">
       {{- range $memberLogos2 }}
       <div class="column is-2-desktop is-2-tablet is-3-mobile">
-        <a>
-          <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
+        <a href="{{.url}}" target="_blank">
+          <img src="{{ printf "/images/logos/members/%s.png" .logo | relURL }}">
         </a>
       </div>
       {{- end }}
@@ -25,8 +25,8 @@
     <div class="columns is-mobile is-centered">
       {{- range $memberLogos3 }}
       <div class="column is-2-desktop is-2-tablet is-3-mobile">
-        <a>
-          <img src="{{ printf "/images/logos/members/%s.png" . | relURL }}">
+        <a href="{{.url}}" target="_blank">
+          <img src="{{ printf "/images/logos/members/%s.png" .logo | relURL }}">
         </a>
       </div>
       {{- end }}
