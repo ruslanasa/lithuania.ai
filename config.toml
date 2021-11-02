@@ -71,6 +71,7 @@ disableKinds = [
     ]
     memberlogos4 = [
       { logo = "TE_123x70@4x", url = "https://www.tietoevry.com/" },
+      { logo = "Euromonitor_123x70@4x", url = "https://www.euromonitor.com/lithuania" },
     ]
 
   [[params.navbar]]
