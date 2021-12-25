@@ -71,6 +71,7 @@ disableKinds = [
       { logo = "Ovoko_123x70@4x", url = "https://rrr.lt/" },
       { logo = "TE_123x70@4x", url = "https://www.tietoevry.com/" },
       { logo = "Euromonitor_123x70@4x", url = "https://www.euromonitor.com/" },
+      { logo = "alticIT_123x70@4x", url = "https://www.altic.lt/" },      
     ]
     memberlogos4 = [
       
