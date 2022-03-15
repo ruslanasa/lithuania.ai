@@ -78,8 +78,18 @@ disableKinds = [
       
       { logo = "Satalia_123x70@4x", url = "https://www.satalia.com/" },    
       { logo = "3RTechnologies_123x70@4x", url = "https://www.3rt.lt/" },  
+      { logo = "ElsisPro_123x70@4x", url = "https://www.elsispro.com/lt/" },        
     ]
 
+    memberlogos5 = [
+      
+      
+      { logo = "VDU_123x70@4x", url = "https://if.vdu.lt/" },    
+      { logo = "KTU_AIC_123x70@4x", url = "https://dicentras.ktu.edu/" },  
+      { logo = "VilniusTech_FS_123x70@4x", url = "https://vilniustech.lt/fundamentiniu-mokslu-fakultetas/890" }, 
+      { logo = "VU_MIF_123x70@4x", url = "https://mif.vu.lt/lt3/" },              
+    ]
+    
   [[params.navbar]]
     title = "Mission"
     titlelt = "Misija"    
@@ -197,7 +207,7 @@ disableKinds = [
         [[params.footer.quicklinks.column1.links]]
           text = "Member application form"
           textlt = "Narystės forma"          
-          link = "https://docs.google.com/forms/d/e/1FAIpQLSddLuSeS5BUFgY7RSHP1_urgg0rSALZMvL_pZicbxt-Xe4u7w/viewform"
+          link = "https://docs.google.com/forms/d/e/1FAIpQLSfhmKHrb_pwCDQssZAY8ME1EwnwUUh2IGd9TGMj9RSU8_mImg/viewform"
 
       [params.footer.quicklinks.column2]
         title = "Contacts"
