@@ -87,7 +87,7 @@ disableKinds = [
       { logo = "VDU_123x70@4x", url = "https://if.vdu.lt/" },    
       { logo = "KTU_AIC_123x70@4x", url = "https://dicentras.ktu.edu/" },  
       { logo = "VilniusTech_FS_123x70@4x", url = "https://vilniustech.lt/fundamentiniu-mokslu-fakultetas/890" }, 
-      #{ logo = "VU_MIF_123x70@4x", url = "https://mif.vu.lt/lt3/" },              
+      #{ logo = "VU_MIF_123x70@4x", url = "https://mif.vu.lt/lt3/" },  
     ]
     
   [[params.navbar]]
