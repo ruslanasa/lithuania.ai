@@ -197,25 +197,33 @@ disableKinds = [
 
       [params.footer.quicklinks.column1]
         title = "Info"
-        titlelt = "Informacija"        
+        titlelt = "Informacija"
 
         [[params.footer.quicklinks.column1.links]]
           text = "Bylaws (in lithuanian)"
-          textlt = "Įstatai"          
+          textlt = "Įstatai"
+          target="_blank"
           link = "https://lithuania.ai/files/ldia_istatai.pdf"
 
         [[params.footer.quicklinks.column1.links]]
           text = "Member application form"
-          textlt = "Narystės forma"          
+          textlt = "Narystės forma"
+          target="_blank"
           link = "https://docs.google.com/forms/d/e/1FAIpQLSfhmKHrb_pwCDQssZAY8ME1EwnwUUh2IGd9TGMj9RSU8_mImg/viewform"
+
+        [[params.footer.quicklinks.column1.links]]
+          text = "Newsletter subscription"
+          textlt = "Naujienlaiškio užsisakymas"
+          link = "javascript:;"
+          onclick = "ml_webform_5680660('show')"
 
       [params.footer.quicklinks.column2]
         title = "Contacts"
-        titlelt = "Kontaktai"        
+        titlelt = "Kontaktai"
         
         [[params.footer.quicklinks.column2.links]]
           text = "Email: info@lithuania.ai"
-          textlt = "El. paštas: info@lithuania.ai"          
+          textlt = "El. paštas: info@lithuania.ai"
           link = "mailto: info@lithuania.ai"
 
 
