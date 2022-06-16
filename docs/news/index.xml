@@ -6,7 +6,11 @@
     <description>Recent content in Latest events from AIAL: on Lithuania AI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Mar 2021 22:25:14 +0200</lastBuildDate><atom:link href="https://lithuania.ai/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 22:25:14 +0200</lastBuildDate>
+    
+	<atom:link href="https://lithuania.ai/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>AI definitions in Lithuanian</title>
       <link>https://lithuania.ai/news/definitions/</link>

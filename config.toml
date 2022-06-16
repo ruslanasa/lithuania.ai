@@ -76,6 +76,7 @@ disableKinds = [
     memberlogos4 = [
       
       
+      { logo = "Novian_technologies_123x70@4x", url = "https://novian.io/novian-technologies/" },          
       { logo = "Satalia_123x70@4x", url = "https://www.satalia.com/" },    
       { logo = "3RTechnologies_123x70@4x", url = "https://www.3rt.lt/" },  
       { logo = "ElsisPro_123x70@4x", url = "https://www.elsispro.com/lt/" },        
