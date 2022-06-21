@@ -76,7 +76,7 @@ disableKinds = [
     memberlogos4 = [
       
       
-      { logo = "Novian_technologies_123x70@4x", url = "https://novian.io/novian-technologies/" },          
+        
       { logo = "Satalia_123x70@4x", url = "https://www.satalia.com/" },    
       { logo = "3RTechnologies_123x70@4x", url = "https://www.3rt.lt/" },  
       { logo = "ElsisPro_123x70@4x", url = "https://www.elsispro.com/lt/" },        
@@ -84,12 +84,18 @@ disableKinds = [
 
     memberlogos5 = [
       
+      { logo = "Novian_technologies_123x70@4x", url = "https://novian.io/novian-technologies/" },      
+      { logo = "Planner5D_123x70@4x", url = "https://planner5d.com" },            
+        
+    ]
+    
+    memberlogos6 = [
       
       { logo = "VDU_123x70@4x", url = "https://if.vdu.lt/" },    
       { logo = "KTU_AIC_123x70@4x", url = "https://dicentras.ktu.edu/" },  
       { logo = "VilniusTech_FS_123x70@4x", url = "https://vilniustech.lt/fundamentiniu-mokslu-fakultetas/890" }, 
-      { logo = "VU_MIF_123x70@4x", url = "https://mif.vu.lt/lt3/" },              
-    ]
+      { logo = "VU_MIF_123x70@4x", url = "https://mif.vu.lt/lt3/" },                
+    ]    
     
   [[params.navbar]]
     title = "Mission"
