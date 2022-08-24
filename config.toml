@@ -85,7 +85,8 @@ disableKinds = [
     memberlogos5 = [
       
       { logo = "Novian_technologies_123x70@4x", url = "https://novian.io/novian-technologies/" },      
-      { logo = "Planner5D_123x70@4x", url = "https://planner5d.com" },            
+      { logo = "Planner5D_123x70@4x", url = "https://planner5d.com" },      
+      { logo = "SME_123x70@4x", url = "https://smefinance.lt" },            
         
     ]
     
@@ -138,18 +139,6 @@ disableKinds = [
     titlelt = "Draugai"    
     url = "/#friends"
     urllt = "/lt/#friends"
-
-  [[params.navbar]]
-    title = "OKRs"
-    titlelt = "OKRs"
-    url = "https://www.notion.so/1062403a979c4e20b9f37868221a0f63"
-    urllt = "https://www.notion.so/1062403a979c4e20b9f37868221a0f63"
-
-  [[params.navbar]]
-    title = "Projects"
-    titlelt = "Projektai"    
-    url = "https://www.notion.so/3bb4e0947f484f0c97ee7a81f0c57ec0"
-    urllt = "https://www.notion.so/3bb4e0947f484f0c97ee7a81f0c57ec0"
 
 
   [[params.navbar]]
